@@ -39,15 +39,26 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Build SVG and PNG previews from public OSM data
-        run: python scripts/build_map.py
+        id: build
+        continue-on-error: true
+        run: |
+          mkdir -p docs/generated
+          set +e
+          python scripts/build_map.py > docs/generated/build.log 2>&1
+          code=$?
+          cat docs/generated/build.log
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
 
       - name: Inspect SVG structure
+        if: steps.build.outputs.exit_code == '0'
         run: |
           python scripts/inspect_svg.py \
             docs/generated/01-current-osm.svg \
             docs/generated/02-grade-separation.svg
 
       - name: Verify output files
+        if: steps.build.outputs.exit_code == '0'
         run: |
           test -s docs/generated/01-current-osm.svg
           test -s docs/generated/01-current-osm.png
@@ -57,13 +68,15 @@ jobs:
           test -s docs/generated/index.html
 
       - name: Upload rendered review artifacts
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: rendered-map-review
           path: docs/generated/
           retention-days: 7
 
-      - name: Commit deterministic previews
+      - name: Commit deterministic previews or diagnostic log
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -71,3 +84,7 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "Render current OSM structure [skip ci]"
           git push
+
+      - name: Fail if renderer failed
+        if: steps.build.outputs.exit_code != '0'
+        run: exit 1
