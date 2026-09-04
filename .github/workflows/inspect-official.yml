@@ -1,0 +1,122 @@
+name: Inspect latest Yokohama official plan
+
+on:
+  push:
+    branches:
+      - 'feat/**'
+    paths:
+      - '.github/workflows/inspect-official.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install inspection dependencies
+        run: pip install requests beautifulsoup4 pymupdf
+
+      - name: Fetch current Yokohama page and inspect the August 2026 explanation PDF
+        run: |
+          mkdir -p /tmp/official-review
+          python - <<'PY'
+          from __future__ import annotations
+          import json
+          from pathlib import Path
+          from urllib.parse import urljoin
+
+          import fitz
+          import requests
+          from bs4 import BeautifulSoup
+
+          page_url = 'https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.html'
+          headers = {'User-Agent': 'futatsubashi-intersection-visualizer/1.0 (+public-document-inspection)'}
+          r = requests.get(page_url, headers=headers, timeout=30)
+          r.raise_for_status()
+          r.encoding = r.apparent_encoding
+          soup = BeautifulSoup(r.text, 'html.parser')
+
+          candidates = []
+          for a in soup.find_all('a', href=True):
+              label = ' '.join(a.stripped_strings)
+              href = urljoin(page_url, a['href'])
+              if href.lower().endswith('.pdf'):
+                  score = 0
+                  if '工事説明会資料' in label:
+                      score += 5
+                  if '令和８年８月' in label or '令和8年8月' in label:
+                      score += 8
+                  if '８月６日' in label or '8月6日' in label:
+                      score += 6
+                  if '８日' in label or '8日' in label:
+                      score += 2
+                  candidates.append((score, label, href))
+
+          candidates.sort(reverse=True)
+          if not candidates or candidates[0][0] < 5:
+              raise RuntimeError('Could not identify the August 2026 construction explanation PDF')
+
+          score, label, pdf_url = candidates[0]
+          print('Selected:', label)
+          print('PDF URL:', pdf_url)
+
+          pdf_bytes = requests.get(pdf_url, headers=headers, timeout=60).content
+          pdf_path = Path('/tmp/official-review/source.pdf')
+          pdf_path.write_bytes(pdf_bytes)
+          doc = fitz.open(pdf_path)
+
+          keywords = ['完成イメージ', '１号交差点', '1号交差点', '信号', '中原街道', '三ツ境下草柳線']
+          selected_pages = []
+          extracted = []
+          for i, page in enumerate(doc):
+              text = page.get_text('text')
+              hit = [k for k in keywords if k in text]
+              if hit:
+                  selected_pages.append(i)
+                  extracted.append(f'===== PAGE {i+1} / hits={hit} =====\n{text}\n')
+
+          # Keep the review bounded. Prefer pages with exact target terms, then neighboring context if sparse.
+          exact = []
+          for i in selected_pages:
+              text = doc[i].get_text('text')
+              if '完成イメージ' in text or '１号交差点' in text or '1号交差点' in text:
+                  exact.append(i)
+          render_pages = exact[:6] if exact else selected_pages[:6]
+          if not render_pages:
+              render_pages = list(range(min(4, len(doc))))
+
+          for i in render_pages:
+              page = doc[i]
+              pix = page.get_pixmap(matrix=fitz.Matrix(1.7, 1.7), alpha=False)
+              pix.save(f'/tmp/official-review/page-{i+1:02d}.png')
+
+          meta = {
+              'project_page': page_url,
+              'selected_link_label': label,
+              'pdf_url': pdf_url,
+              'page_count': len(doc),
+              'matched_pages_1_based': [i+1 for i in selected_pages],
+              'rendered_pages_1_based': [i+1 for i in render_pages],
+          }
+          Path('/tmp/official-review/metadata.json').write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding='utf-8')
+          Path('/tmp/official-review/extracted-text.txt').write_text('\n'.join(extracted), encoding='utf-8')
+          # Do not upload/re-host the source PDF itself; only temporary rendered review pages and text metadata.
+          pdf_path.unlink()
+          print(json.dumps(meta, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Upload temporary review artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-2026-review
+          path: /tmp/official-review/
+          retention-days: 1
