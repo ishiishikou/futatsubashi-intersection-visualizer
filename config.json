@@ -1,0 +1,8 @@
+{
+  "center_query": "神奈川県立三ツ境支援学校, 横浜市, 神奈川県, 日本",
+  "distance_m": 650,
+  "route45_name_keywords": ["中原街道"],
+  "route45_ref_keywords": ["45"],
+  "surface_connector_keywords": ["三ツ境下草柳線"],
+  "railway_types": ["rail", "light_rail"]
+}
