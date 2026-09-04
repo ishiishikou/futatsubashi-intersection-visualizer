@@ -8,8 +8,8 @@ import cairosvg
 import geopandas as gpd
 import osmnx as ox
 import svgwrite
-from shapely.geometry import LineString, MultiLineString
-from shapely.ops import unary_union
+from shapely.geometry import LineString, MultiLineString, Point
+from shapely.ops import nearest_points, unary_union
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs" / "generated"
@@ -162,7 +162,6 @@ def make_xy(bounds, x, y, w, h, pad=35):
     scale = min((w - 2 * pad) / sx, (h - 2 * pad) / sy)
     used_w, used_h = sx * scale, sy * scale
     ox0 = x + (w - used_w) / 2
-    oy0 = y + (h - used_h) / 2
 
     def xy(px, py):
         return (
@@ -183,6 +182,17 @@ def crop(gdf, polygon):
 
 def centroid_point(gdf):
     return unary_union(list(gdf.geometry)).centroid
+
+
+def crossing_focus(underpass, rail) -> Point:
+    """Center the local view on the actual XY crossing of the grade-separated layers."""
+    under_geom = unary_union(list(underpass.geometry))
+    rail_geom = unary_union(list(rail.geometry))
+    crossing = under_geom.intersection(rail_geom)
+    if not crossing.is_empty:
+        return crossing.centroid
+    a, b = nearest_points(under_geom, rail_geom)
+    return Point((a.x + b.x) / 2, (a.y + b.y) / 2)
 
 
 def add_legend(dwg, x, y):
@@ -214,7 +224,7 @@ def render_local(roads, rail, route45, underpass, connector, focus_poly):
     dwg = svgwrite.Drawing(str(OUT / "03-local-focus.svg"), size=(W, H), viewBox=f"0 0 {W} {H}")
     dwg.add(dwg.rect(insert=(0, 0), size=(W, H), fill=C["bg"]))
     add_text(dwg, 70, 58, "交差点周辺だけに拡大：現況の上下関係", size=36, weight=700)
-    add_text(dwg, 70, 105, "広域図では小さすぎたため、県道45号の線路下区間を中心に約200m圏だけを表示", size=21, weight=500, fill=C["muted"])
+    add_text(dwg, 70, 105, "県道45号のアンダーパスと相鉄線が平面上で交わる点を中心に、約250m圏だけを表示", size=21, weight=500, fill=C["muted"])
 
     g = dwg.g(id="local-focus")
     draw_gdf(dwg, g, roads_f, xy, C["surface_minor"], 5, opacity=0.9)
@@ -248,7 +258,7 @@ def panel(dwg, x, title, subtitle, bounds, roads, rail, route45, underpass, conn
     y, pw, ph = 165, 350, 650
     dwg.add(dwg.rect(insert=(x, y), size=(pw, ph), rx=18, ry=18, fill=C["panel"], stroke=C["border"], stroke_width=2))
     add_text(dwg, x + 18, y + 42, title, size=25, weight=700)
-    add_text(dwg, x + 18, y + 72, subtitle, size=17, weight=500, fill=C["muted"])
+    add_text(dwg, x + 18, y + 72, subtitle, size=19, weight=500, fill=C["muted"])
     xy = make_xy(bounds, x + 12, y + 92, pw - 24, ph - 115, pad=8)
     g = dwg.g()
     if mode == "surface":
@@ -313,15 +323,15 @@ def main():
     if underpass.empty:
         raise RuntimeError("Route 45 underpass was not found from OSM tunnel/layer tags")
 
-    focus_center = centroid_point(underpass)
-    focus_poly = focus_center.buffer(215)
+    focus_center = crossing_focus(underpass, rail_p)
+    focus_poly = focus_center.buffer(250)
 
     render_local(roads_p, rail_p, route45, underpass, connector, focus_poly)
     render_exploded(roads_p, rail_p, route45, underpass, connector, focus_poly)
 
     print(json.dumps({
         "focus_center_projected": [focus_center.x, focus_center.y],
-        "focus_radius_m": 215,
+        "focus_radius_m": 250,
         "outputs": [
             "docs/generated/03-local-focus.svg",
             "docs/generated/03-local-focus.png",
