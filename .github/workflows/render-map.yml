@@ -44,7 +44,20 @@ jobs:
         run: |
           mkdir -p docs/generated
           set +e
-          python scripts/build_map.py > docs/generated/build.log 2>&1
+          {
+            python scripts/build_map.py
+            map_code=$?
+            if [ "$map_code" -eq 0 ]; then
+              python scripts/build_focus.py
+              focus_code=$?
+            else
+              focus_code=99
+            fi
+            if [ "$map_code" -ne 0 ]; then
+              exit "$map_code"
+            fi
+            exit "$focus_code"
+          } > docs/generated/build.log 2>&1
           code=$?
           cat docs/generated/build.log
           echo "exit_code=$code" >> "$GITHUB_OUTPUT"
@@ -55,7 +68,9 @@ jobs:
         run: |
           python scripts/prettify_svg.py \
             docs/generated/01-current-osm.svg \
-            docs/generated/02-grade-separation.svg
+            docs/generated/02-grade-separation.svg \
+            docs/generated/03-local-focus.svg \
+            docs/generated/04-layer-exploded.svg
           rm -f docs/generated/build.log
 
       - name: Inspect SVG structure
@@ -63,7 +78,9 @@ jobs:
         run: |
           python scripts/inspect_svg.py \
             docs/generated/01-current-osm.svg \
-            docs/generated/02-grade-separation.svg
+            docs/generated/02-grade-separation.svg \
+            docs/generated/03-local-focus.svg \
+            docs/generated/04-layer-exploded.svg
 
       - name: Verify output files
         if: steps.build.outputs.exit_code == '0'
@@ -72,6 +89,10 @@ jobs:
           test -s docs/generated/01-current-osm.png
           test -s docs/generated/02-grade-separation.svg
           test -s docs/generated/02-grade-separation.png
+          test -s docs/generated/03-local-focus.svg
+          test -s docs/generated/03-local-focus.png
+          test -s docs/generated/04-layer-exploded.svg
+          test -s docs/generated/04-layer-exploded.png
           test -s docs/generated/metadata.json
           test -s docs/generated/index.html
 
