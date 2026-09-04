@@ -1,62 +1,56 @@
-2026-09-04 11:19:10 Pausing 1 second(s) before making HTTP GET request to 'nominatim.openstreetmap.org'
-2026-09-04 11:19:11 Get https://nominatim.openstreetmap.org/search?format=json&limit=1&dedupe=0&q=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E7%AB%8B%E4%B8%89%E3%83%84%E5%A2%83%E6%94%AF%E6%8F%B4%E5%AD%A6%E6%A0%A1%2C+%E6%A8%AA%E6%B5%9C%E5%B8%82%2C+%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%2C+%E6%97%A5%E6%9C%AC with timeout=180
-2026-09-04 11:19:12 Downloaded 0.5kB from 'nominatim.openstreetmap.org' with status 200
-2026-09-04 11:19:12 Saved response to cache file 'cache/01816399f91d008aa091520eb22f04532a7461b6.json'
-2026-09-04 11:19:12 Geocoded '????????????, ???, ????, ??' to (35.4723584, 139.4946542)
-2026-09-04 11:19:12 Created bbox 650 meters from (35.4723584, 139.4946542): (np.float64(139.4874763832831), np.float64(35.46651281781929), np.float64(139.50183201671692), np.float64(35.4782039821807))
-2026-09-04 11:19:12 Projected GeoDataFrame to 'EPSG:32654 / WGS 84 / UTM zone 54N'
-2026-09-04 11:19:12 Projected GeoDataFrame to 'EPSG:4326 / WGS 84'
-2026-09-04 11:19:12 Requesting data from API in 1 request(s)
-2026-09-04 11:19:12 Resolved 'overpass-api.de' to '162.55.144.139'
-2026-09-04 11:19:12 Pausing 0 second(s) before making HTTP POST request to 'overpass-api.de'
-2026-09-04 11:19:12 Post https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%27highway%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%27highway%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%27highway%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B with timeout=180
-2026-09-04 11:19:12 Resolved 'overpass-api.de' to '162.55.144.139'
-2026-09-04 11:19:15 Downloaded 442.4kB from 'overpass-api.de' with status 200
-2026-09-04 11:19:15 Saved response to cache file 'cache/9aa1a48cf4a4b30fb9e03d3f97b3eff77bae2687.json'
-2026-09-04 11:19:15 Retrieved 3,574 elements from API in 1 request(s)
-2026-09-04 11:19:15 Built r-tree spatial index for 1,046 geometries
-2026-09-04 11:19:15 Accelerating r-tree with 4 quadrats
-2026-09-04 11:19:15 Identified 1,008 geometries inside polygon
-2026-09-04 11:19:15 1,008 features in the final GeoDataFrame
-2026-09-04 11:19:15 Created bbox 650 meters from (35.4723584, 139.4946542): (np.float64(139.4874763832831), np.float64(35.46651281781929), np.float64(139.50183201671692), np.float64(35.4782039821807))
-2026-09-04 11:19:15 Projected GeoDataFrame to 'EPSG:32654 / WGS 84 / UTM zone 54N'
-2026-09-04 11:19:15 Projected GeoDataFrame to 'EPSG:4326 / WGS 84'
-2026-09-04 11:19:15 Requesting data from API in 1 request(s)
-2026-09-04 11:19:15 Resolved 'overpass-api.de' to '65.109.112.52'
-2026-09-04 11:19:15 Pausing 0 second(s) before making HTTP POST request to 'overpass-api.de'
-2026-09-04 11:19:15 Post https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%27railway%27%3D%27rail%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%27railway%27%3D%27rail%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%27railway%27%3D%27rail%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28node%5B%27railway%27%3D%27light_rail%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%27railway%27%3D%27light_rail%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%27railway%27%3D%27light_rail%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B with timeout=180
-2026-09-04 11:19:15 Resolved 'overpass-api.de' to '65.109.112.52'
-2026-09-04 11:19:16 Downloaded 8.1kB from 'overpass-api.de' with status 200
-2026-09-04 11:19:16 Saved response to cache file 'cache/4fd90c93b52051f1d909423f5797c62eda297fe5.json'
-2026-09-04 11:19:16 Retrieved 61 elements from API in 1 request(s)
-2026-09-04 11:19:16 Built r-tree spatial index for 15 geometries
-2026-09-04 11:19:16 Accelerating r-tree with 4 quadrats
-2026-09-04 11:19:16 Identified 10 geometries inside polygon
-2026-09-04 11:19:16 2 features in the final GeoDataFrame
-2026-09-04 11:19:16 Projected GeoDataFrame to 'EPSG:32654 / WGS 84 / UTM zone 54N'
-Traceback (most recent call last):
-  File "/home/runner/work/futatsubashi-intersection-visualizer/futatsubashi-intersection-visualizer/scripts/build_map.py", line 560, in <module>
-    main()
-  File "/home/runner/work/futatsubashi-intersection-visualizer/futatsubashi-intersection-visualizer/scripts/build_map.py", line 539, in main
-    render_svg_current(roads_p, rail_p, route45, underpass, connector, svg1)
-  File "/home/runner/work/futatsubashi-intersection-visualizer/futatsubashi-intersection-visualizer/scripts/build_map.py", line 270, in render_svg_current
-    draw_gdf(dwg, g, roads, xy, stroke=COLORS["road"], width=4, opacity=0.95)
-  File "/home/runner/work/futatsubashi-intersection-visualizer/futatsubashi-intersection-visualizer/scripts/build_map.py", line 187, in draw_gdf
-    group.add(dwg.path(d=d, **attrs))
-              ^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/svgwrite/elementfactory.py", line 68, in __call__
-    return self.cls(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/svgwrite/path.py", line 26, in __init__
-    super(Path, self).__init__(**extra)
-  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/svgwrite/base.py", line 69, in __init__
-    self.update(extra)
-  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/svgwrite/base.py", line 85, in update
-    self.__setitem__(key, value)
-  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/svgwrite/base.py", line 166, in __setitem__
-    self.validator.check_svg_attribute_value(self.elementname, key, value)
-  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/svgwrite/validator2.py", line 61, in check_svg_attribute_value
-    self._check_valid_svg_attribute_name(elementname, attributename)
-  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/svgwrite/validator2.py", line 88, in _check_valid_svg_attribute_name
-    raise ValueError("Invalid attribute '%s' for svg-element <%s>." % (attributename, elementname))
-ValueError: Invalid attribute 'vector-effect' for svg-element <path>.
+2026-09-04 11:21:31 Pausing 1 second(s) before making HTTP GET request to 'nominatim.openstreetmap.org'
+2026-09-04 11:21:32 Get https://nominatim.openstreetmap.org/search?format=json&limit=1&dedupe=0&q=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E7%AB%8B%E4%B8%89%E3%83%84%E5%A2%83%E6%94%AF%E6%8F%B4%E5%AD%A6%E6%A0%A1%2C+%E6%A8%AA%E6%B5%9C%E5%B8%82%2C+%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%2C+%E6%97%A5%E6%9C%AC with timeout=180
+2026-09-04 11:21:32 Downloaded 0.5kB from 'nominatim.openstreetmap.org' with status 200
+2026-09-04 11:21:32 Saved response to cache file 'cache/01816399f91d008aa091520eb22f04532a7461b6.json'
+2026-09-04 11:21:32 Geocoded '????????????, ???, ????, ??' to (35.4723584, 139.4946542)
+2026-09-04 11:21:32 Created bbox 650 meters from (35.4723584, 139.4946542): (np.float64(139.4874763832831), np.float64(35.46651281781929), np.float64(139.50183201671692), np.float64(35.4782039821807))
+2026-09-04 11:21:32 Projected GeoDataFrame to 'EPSG:32654 / WGS 84 / UTM zone 54N'
+2026-09-04 11:21:32 Projected GeoDataFrame to 'EPSG:4326 / WGS 84'
+2026-09-04 11:21:32 Requesting data from API in 1 request(s)
+2026-09-04 11:21:32 Resolved 'overpass-api.de' to '65.109.112.52'
+2026-09-04 11:21:33 Pausing 0 second(s) before making HTTP POST request to 'overpass-api.de'
+2026-09-04 11:21:33 Post https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%27highway%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%27highway%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%27highway%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B with timeout=180
+2026-09-04 11:21:33 Resolved 'overpass-api.de' to '65.109.112.52'
+2026-09-04 11:21:42 'overpass-api.de' responded 504 Gateway Timeout: we'll retry in 55 secs
+2026-09-04 11:22:37 Resolved 'overpass-api.de' to '65.109.112.52'
+2026-09-04 11:22:38 Pausing 0 second(s) before making HTTP POST request to 'overpass-api.de'
+2026-09-04 11:22:38 Post https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%27highway%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%27highway%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%27highway%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B with timeout=180
+2026-09-04 11:22:38 Resolved 'overpass-api.de' to '65.109.112.52'
+2026-09-04 11:22:43 Downloaded 442.4kB from 'overpass-api.de' with status 200
+2026-09-04 11:22:43 Saved response to cache file 'cache/9aa1a48cf4a4b30fb9e03d3f97b3eff77bae2687.json'
+2026-09-04 11:22:43 Retrieved 3,574 elements from API in 1 request(s)
+2026-09-04 11:22:43 Built r-tree spatial index for 1,046 geometries
+2026-09-04 11:22:43 Accelerating r-tree with 4 quadrats
+2026-09-04 11:22:43 Identified 1,008 geometries inside polygon
+2026-09-04 11:22:43 1,008 features in the final GeoDataFrame
+2026-09-04 11:22:43 Created bbox 650 meters from (35.4723584, 139.4946542): (np.float64(139.4874763832831), np.float64(35.46651281781929), np.float64(139.50183201671692), np.float64(35.4782039821807))
+2026-09-04 11:22:43 Projected GeoDataFrame to 'EPSG:32654 / WGS 84 / UTM zone 54N'
+2026-09-04 11:22:43 Projected GeoDataFrame to 'EPSG:4326 / WGS 84'
+2026-09-04 11:22:43 Requesting data from API in 1 request(s)
+2026-09-04 11:22:43 Resolved 'overpass-api.de' to '65.109.112.52'
+2026-09-04 11:22:43 Pausing 0 second(s) before making HTTP POST request to 'overpass-api.de'
+2026-09-04 11:22:43 Post https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28%28node%5B%27railway%27%3D%27rail%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%27railway%27%3D%27rail%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%27railway%27%3D%27rail%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28node%5B%27railway%27%3D%27light_rail%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28way%5B%27railway%27%3D%27light_rail%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%28relation%5B%27railway%27%3D%27light_rail%27%5D%28poly%3A%2735.466513+139.487476+35.466513+139.501832+35.478204+139.501832+35.478204+139.487476+35.466513+139.487476%27%29%3B%28._%3B%3E%3B%29%3B%29%3B%29%3Bout%3B with timeout=180
+2026-09-04 11:22:43 Resolved 'overpass-api.de' to '65.109.112.52'
+2026-09-04 11:22:45 Downloaded 8.1kB from 'overpass-api.de' with status 200
+2026-09-04 11:22:45 Saved response to cache file 'cache/4fd90c93b52051f1d909423f5797c62eda297fe5.json'
+2026-09-04 11:22:45 Retrieved 61 elements from API in 1 request(s)
+2026-09-04 11:22:45 Built r-tree spatial index for 15 geometries
+2026-09-04 11:22:45 Accelerating r-tree with 4 quadrats
+2026-09-04 11:22:45 Identified 10 geometries inside polygon
+2026-09-04 11:22:45 2 features in the final GeoDataFrame
+2026-09-04 11:22:45 Projected GeoDataFrame to 'EPSG:32654 / WGS 84 / UTM zone 54N'
+{
+  "center": [
+    35.4723584,
+    139.4946542
+  ],
+  "route45_features": 23,
+  "underpass_features": 3,
+  "rail_features": 2,
+  "rail_above_features": 2,
+  "connector_features": 1,
+  "outputs": [
+    "docs/generated/01-current-osm.svg",
+    "docs/generated/02-grade-separation.svg"
+  ]
+}
