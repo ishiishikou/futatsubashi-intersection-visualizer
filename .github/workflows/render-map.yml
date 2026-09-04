@@ -38,7 +38,7 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Build SVG and PNG previews from public OSM data
+      - name: Build SVG and PNG previews from public data
         id: build
         continue-on-error: true
         run: |
@@ -53,10 +53,19 @@ jobs:
             else
               focus_code=99
             fi
+            if [ "$map_code" -eq 0 ] && [ "$focus_code" -eq 0 ]; then
+              python scripts/build_signal_phases.py
+              signal_code=$?
+            else
+              signal_code=99
+            fi
             if [ "$map_code" -ne 0 ]; then
               exit "$map_code"
             fi
-            exit "$focus_code"
+            if [ "$focus_code" -ne 0 ]; then
+              exit "$focus_code"
+            fi
+            exit "$signal_code"
           } > docs/generated/build.log 2>&1
           code=$?
           cat docs/generated/build.log
@@ -70,7 +79,8 @@ jobs:
             docs/generated/01-current-osm.svg \
             docs/generated/02-grade-separation.svg \
             docs/generated/03-local-focus.svg \
-            docs/generated/04-layer-exploded.svg
+            docs/generated/04-layer-exploded.svg \
+            docs/generated/05-signal-phases-2018.svg
           rm -f docs/generated/build.log
 
       - name: Inspect SVG structure
@@ -80,7 +90,8 @@ jobs:
             docs/generated/01-current-osm.svg \
             docs/generated/02-grade-separation.svg \
             docs/generated/03-local-focus.svg \
-            docs/generated/04-layer-exploded.svg
+            docs/generated/04-layer-exploded.svg \
+            docs/generated/05-signal-phases-2018.svg
 
       - name: Verify output files
         if: steps.build.outputs.exit_code == '0'
@@ -93,6 +104,8 @@ jobs:
           test -s docs/generated/03-local-focus.png
           test -s docs/generated/04-layer-exploded.svg
           test -s docs/generated/04-layer-exploded.png
+          test -s docs/generated/05-signal-phases-2018.svg
+          test -s docs/generated/05-signal-phases-2018.png
           test -s docs/generated/metadata.json
           test -s docs/generated/index.html
 
