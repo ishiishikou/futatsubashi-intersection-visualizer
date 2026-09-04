@@ -58,6 +58,12 @@ def layer_num(value) -> float:
     if isinstance(value, (list, tuple, set)):
         vals = [layer_num(v) for v in value]
         return min(vals) if vals else 0.0
+    # GeoPandas stores an unset OSM layer as NaN. Treat that as ordinary layer 0.
+    try:
+        if value != value:
+            return 0.0
+    except Exception:
+        pass
     try:
         return float(value)
     except (TypeError, ValueError):
@@ -238,11 +244,11 @@ def render_local(roads, rail, route45, underpass, connector, focus_poly):
     if not under_f.empty:
         p = centroid_point(under_f)
         px, py = xy(p.x, p.y)
-        add_text(dwg, px + 26, py + 62, "県道45号\n線路下", size=24, fill=C["under"])
+        add_text(dwg, px + 28, py + 70, "県道45号\n線路下", size=24, fill=C["under"])
     if not rail_f.empty:
         p = centroid_point(rail_f)
         px, py = xy(p.x, p.y)
-        add_text(dwg, px - 20, py - 32, "相鉄線（上）", size=23, fill=C["rail"], anchor="end")
+        add_text(dwg, px - 65, py - 78, "相鉄線（上）", size=23, fill=C["rail"], anchor="end")
     if not conn_f.empty:
         p = centroid_point(conn_f)
         px, py = xy(p.x, p.y)
