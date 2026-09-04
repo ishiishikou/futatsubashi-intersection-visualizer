@@ -13,14 +13,14 @@
     <ns0:tspan dy="0" x="70">1号交差点：2018年に公表された信号パターン検討案</ns0:tspan>
   </ns0:text>
   <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="20" font-weight="500" text-anchor="start" x="70" y="105">
-    <ns0:tspan dy="0" x="70">これは最終信号現示ではありません。横浜市資料の5段階を、道路の上下関係を誤解しないよう地上部分だけで模式化しています。</ns0:tspan>
+    <ns0:tspan dy="0" x="70">最終信号現示ではありません。横浜市資料の5段階を、線路下の県道45号と混同しないよう地上部分だけで模式化しています。</ns0:tspan>
   </ns0:text>
   <ns0:rect fill="#ffffff" height="610" rx="18" ry="18" stroke="#cbd5e1" stroke-width="2" width="277.6" x="70" y="160" />
   <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="26" font-weight="700" text-anchor="start" x="92" y="198">
     <ns0:tspan dy="0" x="92">①</ns0:tspan>
   </ns0:text>
-  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="23" font-weight="700" text-anchor="start" x="132" y="198">
-    <ns0:tspan dy="0" x="132">本線</ns0:tspan>
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="20" font-weight="700" text-anchor="start" x="128" y="198">
+    <ns0:tspan dy="0" x="128">三ツ境下草柳線</ns0:tspan>
   </ns0:text>
   <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="18" font-weight="500" text-anchor="start" x="92" y="232">
     <ns0:tspan dy="0" x="92">直進・左折</ns0:tspan>
@@ -44,8 +44,8 @@
   <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="26" font-weight="700" text-anchor="start" x="387.6" y="198">
     <ns0:tspan dy="0" x="387.6">②</ns0:tspan>
   </ns0:text>
-  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="23" font-weight="700" text-anchor="start" x="427.6" y="198">
-    <ns0:tspan dy="0" x="427.6">本線</ns0:tspan>
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="20" font-weight="700" text-anchor="start" x="423.6" y="198">
+    <ns0:tspan dy="0" x="423.6">三ツ境下草柳線</ns0:tspan>
   </ns0:text>
   <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="18" font-weight="500" text-anchor="start" x="387.6" y="232">
     <ns0:tspan dy="0" x="387.6">右折（2方向）</ns0:tspan>
@@ -68,8 +68,8 @@
   <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="26" font-weight="700" text-anchor="start" x="683.2" y="198">
     <ns0:tspan dy="0" x="683.2">③</ns0:tspan>
   </ns0:text>
-  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="23" font-weight="700" text-anchor="start" x="723.2" y="198">
-    <ns0:tspan dy="0" x="723.2">側道 西</ns0:tspan>
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="20" font-weight="700" text-anchor="start" x="719.2" y="198">
+    <ns0:tspan dy="0" x="719.2">側道 西</ns0:tspan>
   </ns0:text>
   <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="18" font-weight="500" text-anchor="start" x="683.2" y="232">
     <ns0:tspan dy="0" x="683.2">西側から進行</ns0:tspan>
@@ -91,8 +91,8 @@
   <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="26" font-weight="700" text-anchor="start" x="978.8000000000001" y="198">
     <ns0:tspan dy="0" x="978.8000000000001">④</ns0:tspan>
   </ns0:text>
-  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="23" font-weight="700" text-anchor="start" x="1018.8000000000001" y="198">
-    <ns0:tspan dy="0" x="1018.8000000000001">側道 東</ns0:tspan>
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="20" font-weight="700" text-anchor="start" x="1014.8000000000001" y="198">
+    <ns0:tspan dy="0" x="1014.8000000000001">側道 東</ns0:tspan>
   </ns0:text>
   <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="18" font-weight="500" text-anchor="start" x="978.8000000000001" y="232">
     <ns0:tspan dy="0" x="978.8000000000001">東側から進行</ns0:tspan>
@@ -114,8 +114,8 @@
   <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="26" font-weight="700" text-anchor="start" x="1274.4" y="198">
     <ns0:tspan dy="0" x="1274.4">⑤</ns0:tspan>
   </ns0:text>
-  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="23" font-weight="700" text-anchor="start" x="1314.4" y="198">
-    <ns0:tspan dy="0" x="1314.4">歩行者</ns0:tspan>
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="20" font-weight="700" text-anchor="start" x="1310.4" y="198">
+    <ns0:tspan dy="0" x="1310.4">歩行者</ns0:tspan>
   </ns0:text>
   <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="18" font-weight="500" text-anchor="start" x="1274.4" y="232">
     <ns0:tspan dy="0" x="1274.4">車両と分離</ns0:tspan>
