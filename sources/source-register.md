@@ -2,364 +2,145 @@
 
 Last reviewed: 2026-09-04
 
-This file is the authoritative register of sources that should be checked before making claims about the Futatsubashi / Mitsukyo No.1 intersection and the first-phase land-readjustment works.
+Authoritative register of sources to check before making claims about the Futatsubashi / Mitsukyo No.1 intersection and the first-phase land-readjustment works.
 
-The repository does **not** re-host source PDFs or proprietary map screenshots. It records official/public source locations, intended use, authority and limitations.
+This public repository records links, authority, intended use and limitations. It does not re-host source PDFs, Google Maps screenshots, user screenshots or other third-party source imagery.
 
-## Reading order
+## Evidence order
 
-Use sources in this order for reconstruction work:
+Use sources in this order unless a newer official document explicitly supersedes an older one:
 
 1. Yokohama road-ledger / R-Mappy current geometry
-2. latest first-phase project plan / project-plan revision
+2. latest first-phase project plan / latest project-plan revision
 3. latest construction briefing material
 4. earlier project documents and newsletters
-5. i-Mappy urban-planning information
-6. GSI aerial/map material
+5. i-Mappy urban-planning data
+6. GSI map / aerial photography
 7. OpenStreetMap corroboration
-8. engineering/signal design guidance
+8. road/intersection/signal methodology references
 
 ---
 
-## A. Current first-phase project — highest-priority official sources
+## A. Current first-phase project — P0
 
-### A1. First-phase project page
+| ID | Source | URL / resolver | Use |
+|---|---|---|---|
+| A1 | First-phase project page | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.html | Current notices, construction briefings, project status. Check first because PDF links can change. |
+| A2 | First-phase project overview | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/gaiyou.html | Project area, public facilities, widths, links to project plan/document/brochure. |
+| A3 | Current project-plan document `事業計画書` | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/gaiyou.files/0014_20260317.pdf | Legal/project design information. If text extraction is garbled, inspect visually. |
+| A4 | Current `事業計画図` | Resolve from A2 | Primary planned road geometry. Do not rely on an assumed/stale direct PDF path. |
+| A5 | Current project brochure | Resolve from A2 | Supplementary cross-sections and project overview. |
+| A6 | First-phase project plan, 7th revision public-inspection page | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/ikkichikujuuran.html | Latest revision; check for changes that supersede earlier plan material. Updated 2026-08-31. |
 
-- Authority: Yokohama City, Urban Development Bureau
-- Title: 二ツ橋北部三ツ境下草柳線等沿道地区第１期地区土地区画整理事業
-- URL: https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.html
-- Purpose:
-  - current project status;
-  - current construction briefing links;
-  - current notices;
-  - current construction schedule and project navigation.
-- Priority: **P0**
-- Notes: always check this landing page first because direct PDF URLs may change.
-
-### A2. First-phase project overview
-
-- Authority: Yokohama City
-- Title: 事業概要（第１期地区）
-- URL: https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/gaiyou.html
-- Purpose:
-  - project area and period;
-  - public-facility plan;
-  - Mitsukyo-Shimokusayanagi Line width 18 m;
-  - Seya-Chinai Line width 15 m;
-  - links to the current project-plan document, project-plan drawing and brochure.
-- Priority: **P0**
-
-### A3. Current first-phase project-plan document
-
-- Authority: Yokohama City
-- Title: 事業計画書
-- Direct URL currently verified:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/gaiyou.files/0014_20260317.pdf
-- Resolver/parent page:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/gaiyou.html
-- Purpose:
-  - legal/project design information;
-  - public-facility layout and project conditions;
-  - authoritative basis before interpreting explanatory graphics.
-- Priority: **P0**
-- Limitation: PDF text extraction may be garbled; inspect visually when necessary.
-
-### A4. Current first-phase project-plan drawing
-
-- Authority: Yokohama City
-- Title: 事業計画図
-- Resolver/parent page:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/gaiyou.html
-- Purpose:
-  - primary planned road geometry;
-  - relationship between Mitsukyo-Shimokusayanagi Line, Seya-Chinai Line, railway and first-phase project area.
-- Priority: **P0**
-- Rule: use the current link from the parent page rather than assuming an old direct PDF path.
-
-### A5. First-phase project brochure
-
-- Authority: Yokohama City
-- Title: 事業パンフレット
-- Resolver/parent page:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/gaiyou.html
-- Purpose:
-  - supplementary overview;
-  - explanatory cross-sections / project context where present.
-- Priority: P1
-
-### A6. Seventh revision of the first-phase project plan — current public inspection page
-
-- Authority: Yokohama City
-- Title: 二ツ橋北部三ツ境下草柳線等沿道地区第１期地区土地区画整理事業の事業計画（第７回変更）の縦覧について
-- URL: https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/ikkichikujuuran.html
-- Published/updated: 2026-08-31
-- Purpose:
-  - latest project-plan revision;
-  - must be checked for any change that supersedes the project-plan drawing or other earlier material.
-- Priority: **P0**
-- Time-sensitive note: public-inspection period was announced for 2026-09-01 through 2026-09-14. If linked inspection documents disappear later, use the latest project overview/current plan and note the missing historical access.
+A6 announced public inspection for 2026-09-01 through 2026-09-14. If inspection documents later disappear, record that access has expired and use the newest project overview/current plan rather than silently relying on an archived guess.
 
 ---
 
-## B. Construction briefings — physical completion and construction-state evidence
+## B. Construction briefings — P0/P1
 
-### B1. August 2026 construction briefing
-
-- Authority: Yokohama City
-- Title: 工事説明会資料（令和８年８月６日、８日開催）
-- Direct URL:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0039_20260807.pdf
-- Parent page:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.html
-- Purpose:
-  - current construction progress;
-  - No.1 intersection modification;
-  - connection between the existing road from Mitsukyo side and the newly constructed road;
-  - new crosswalk/signal works;
-  - completion illustration;
-  - planned opening information.
-- Priority: **P0**
-- Limitation: completion illustration is explanatory, not automatically survey-grade geometry. Georeference/check against the legal project plan before tracing.
-
-### B2. August 2026 briefing Q&A / comments
-
-- Authority: Yokohama City
-- Title: 工事説明会における質疑応答及びご意見（令和８年８月６日、８日）
-- Resolver/parent page:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.html
-- Purpose:
-  - clarify resident questions, traffic operation, construction sequencing and any explanations not shown in the slides.
-- Priority: **P0**
-
-### B3. July 2025 construction briefing
-
-- Authority: Yokohama City
-- Title: 工事説明会資料（令和７年７月10日、12日開催）
-- Direct URL currently exposed by the official page:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0023_20251009.pdf
-- Parent page:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.html
-- Purpose:
-  - immediately preceding geometry/construction state;
-  - compare evolution into the 2026 completion plan.
-- Priority: P1
-
-### B4. January 2024 construction briefing
-
-- Authority: Yokohama City
-- Title: 工事説明会資料（令和６年１月25日、27日開催）
-- Direct URL currently exposed by the official page:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0024_20251009.pdf
-- Parent page:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.html
-- Purpose:
-  - intermediate construction geometry and sequencing.
-- Priority: P1
-
-### B5. December 2022 construction briefing
-
-- Authority: Yokohama City
-- Title: 工事説明会資料（令和４年12月15日、17日開催）
-- Parent page:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.html
-- Purpose:
-  - earlier construction state;
-  - identify which road pieces existed / were under construction before later intersection work.
-- Priority: P2
-
-### B6. July 2022 construction briefing
-
-- Authority: Yokohama City
-- Title: 工事説明会資料（令和４年７月21日、23日開催）
-- Direct URL currently exposed by the official page:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0026_20251009.pdf
-- Parent page:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.html
-- Purpose:
-  - earlier construction state and design evolution.
-- Priority: P2
+| ID | Source | URL / resolver | Use |
+|---|---|---|---|
+| B1 | Aug 2026 construction briefing (Aug 6/8) | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0039_20260807.pdf | Current construction state, No.1 intersection modification, completion illustration, crosswalk/signal work, opening information. **Explanatory illustration is not automatically survey-grade geometry.** |
+| B2 | Aug 2026 briefing Q&A / comments | Resolve from A1 | Resident questions and official explanations that may clarify traffic operation or construction sequence. |
+| B3 | Jul 2025 construction briefing | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0023_20251009.pdf | Immediately preceding construction/design state; compare with 2026. |
+| B4 | Jan 2024 construction briefing | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0024_20251009.pdf | Intermediate construction state / sequencing. |
+| B5 | Dec 2022 construction briefing | Resolve from A1 | Earlier state; identify when road components were built. |
+| B6 | Jul 2022 construction briefing | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0026_20251009.pdf | Earlier state and design evolution. |
 
 ---
 
-## C. First-phase newsletters — complete official historical series
+## C. First-phase newsletters — complete historical series
 
-### C1. Official archive for all issues 1–24
-
-- Authority: Yokohama City
-- Title: 第１期地区まちづくりニュース
-- URL:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.html
-- Coverage currently listed by Yokohama:
-  - No.1 — 2016-06-23
-  - No.2 — 2016-09-28
-  - No.3 — 2017-02-07
-  - No.4 — 2017-06-14
-  - No.5 — 2017-08-21
-  - No.6 — 2017-12-06
-  - No.7 — 2018-05-18
-  - No.8 — 2018-08-24
-  - No.9 — 2018-11-12
-  - No.10 — 2019-01-11
-  - No.11 — 2019-03-20
-  - No.12 — 2019-10-28
-  - No.13 — 2020-03-12
-  - No.14 — 2020-10-15
-  - No.15 — 2021-11-30
-  - No.16 — 2022-06-01
-  - No.17 — 2022-12-01
-  - No.18 — 2023-03-10
-  - No.19 — 2023-06-30
-  - No.20 — 2023-12-22
-  - No.21 — 2024-08-29
-  - No.22 — 2025-03-17
-  - No.23 — 2025-06-23
-  - No.24 — 2026-03-23
-- Purpose:
-  - complete chronological design/construction history;
-  - earlier road-planning discussions;
-  - changes to local-road connections;
-  - construction sequence;
-  - signal-installation context.
-- Priority: P1 as a collection.
-- Rule: for any historical claim, identify the exact issue and page before using it.
-
-### C2. Newsletter No.6 — side-road / school-route design discussion
+### C1. Official archive, all issues No.1–No.24
 
 - Authority: Yokohama City
+- URL: https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.html
+- Use: complete chronological history of planning, local-road connections, construction, resident explanations and signal context.
+
+Current archive coverage:
+
+| No. | Date | Main role in this investigation |
+|---:|---|---|
+| 1 | 2016-06-23 | project start / surveys / process |
+| 2 | 2016-09-28 | survey and building-investigation progress |
+| 3 | 2017-02-07 | road-plan examination and surveys |
+| 4 | 2017-06-14 | site/geotechnical investigation context |
+| 5 | 2017-08-21 | planning discussion history |
+| 6 | 2017-12-06 | **Nakahara Kaido side-road and school-route/intersection discussion** |
+| 7 | 2018-05-18 | **No.1 intersection historical signal-pattern study** |
+| 8 | 2018-08-24 | planning / implementation history |
+| 9 | 2018-11-12 | construction-start history |
+| 10 | 2019-01-11 | construction / provisional replotting |
+| 11 | 2019-03-20 | construction progress |
+| 12 | 2019-10-28 | plan revision / construction progress |
+| 13 | 2020-03-12 | construction schedule |
+| 14 | 2020-10-15 | construction schedule |
+| 15 | 2021-11-30 | construction schedule |
+| 16 | 2022-06-01 | partial Mitsukyo-Shimokusayanagi completion |
+| 17 | 2022-12-01 | project-plan change / construction |
+| 18 | 2023-03-10 | construction progress |
+| 19 | 2023-06-30 | drainage / infrastructure progress |
+| 20 | 2023-12-22 | construction progress |
+| 21 | 2024-08-29 | construction progress |
+| 22 | 2025-03-17 | construction progress |
+| 23 | 2025-06-23 | construction briefing notice / park |
+| 24 | 2026-03-23 | **pre-opening works, intersection connection, signals/signs/markings** |
+
+For any historical claim, open the exact issue from the archive and record its page before using it.
+
+### C2. Newsletter No.6 — direct pin
+
 - Date: 2017-12-06
-- Direct URL:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.files/0007_20190313.pdf
-- Purpose:
-  - explicit use of `中原街道の側道`;
-  - discussion of closely spaced intersections and school-route aggregation at No.1 intersection.
-- Priority: **P0 for interpreting side roads**
+- URL: https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.files/0007_20190313.pdf
+- Use: explicit `中原街道の側道`; discussion of closely spaced intersections and school-route aggregation at No.1 intersection.
+- Priority: **P0 for identifying the side-road concept**.
 
-### C3. Newsletter No.7 — 2018 signal-control study
+### C3. Newsletter No.7 — direct pin
 
-- Authority: Yokohama City
 - Date: 2018-05-18
-- Direct URL:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.files/0008_20190313.pdf
-- Purpose:
-  - No.1 intersection signal-control study;
-  - historical five-stage movement grouping:
-    1. Mitsukyo-Shimokusayanagi through/left;
-    2. Mitsukyo-Shimokusayanagi right turns (two directions);
-    3. Nakahara Kaido side road west;
-    4. Nakahara Kaido side road east;
-    5. pedestrians.
-- Priority: **P0 for historical signal interpretation**
-- Limitation: the document itself says operation may change after police coordination / actual operation. Never treat it as the confirmed 2026 final phase sequence.
+- URL: https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.files/0008_20190313.pdf
+- Use: historical study grouping movements as:
+  1. Mitsukyo-Shimokusayanagi through/left;
+  2. Mitsukyo-Shimokusayanagi right turns (two directions);
+  3. Nakahara Kaido side road west;
+  4. Nakahara Kaido side road east;
+  5. pedestrians.
+- Priority: **P0 for historical signal interpretation**.
+- Limitation: source states later coordination/operation may change it. **Never treat this as the confirmed 2026 final phase sequence or timing.**
 
-### C4. Newsletter No.24 — latest pre-opening work summary
+### C4. Newsletter No.24 — direct pin
 
-- Authority: Yokohama City
 - Date: 2026-03-23
-- Direct URL:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.files/0062_20260319.pdf
-- Purpose:
-  - states that intersection-improvement work connects roads developed inside the district to the current intersection;
-  - identifies planned road lighting, large road signs, lane markings and signal/regulatory-sign installation;
-  - states signal work is performed by Kanagawa Prefectural Police.
-- Priority: **P0**
+- URL: https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.files/0062_20260319.pdf
+- Use: connection of district roads to current intersection; lighting, large signs, lane markings; signal/regulatory-sign work; identifies Kanagawa Prefectural Police as signal-installation authority.
+- Priority: **P0**.
 
 ---
 
-## D. Urban-planning history and route definition
+## D. Urban-planning history / route definition
 
-### D1. 2014 urban-planning explanatory material — Mitsukyo-Shimokusayanagi Line
+| ID | Source | URL | Use |
+|---|---|---|---|
+| D1 | 2014-era urban-planning explanatory material | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/futatubashi/mitsuhashi/c-chiku.files/0002_20180927.pdf | Mitsukyo-Shimokusayanagi route history, representative width 18 m, relationship to major prefectural road/network. |
+| D2 | Urban-planning-road explanatory material (Mitsukyo-Shimokusayanagi / Seya-Chinai context) | https://www.city.yokohama.lg.jp/business/bunyabetsu/kenchiku/toshikeikaku/tetsuduki/setumei/setumei-2014.files/0076_20230317.pdf | Completed vs uncompleted urban-planning-road sections and broader network context. |
 
-- Authority: Yokohama City
-- Relevant official PDF:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/futatubashi/mitsuhashi/c-chiku.files/0002_20180927.pdf
-- Purpose:
-  - route-wide planning history;
-  - Mitsukyo-Shimokusayanagi Line route definition;
-  - representative width 18 m;
-  - relationship to the major prefectural road and other urban-planning roads.
-- Priority: P1
-
-### D2. Urban-planning road explanatory material (Mitsukyo-Shimokusayanagi / Seya-Chinai context)
-
-- Authority: Yokohama City
-- URL:
-  - https://www.city.yokohama.lg.jp/business/bunyabetsu/kenchiku/toshikeikaku/tetsuduki/setumei/setumei-2014.files/0076_20230317.pdf
-- Purpose:
-  - route overview;
-  - completed vs uncompleted urban-planning road sections;
-  - broader network context.
-- Priority: P1
+Priority: P1.
 
 ---
 
-## E. Current base geometry — Yokohama map/ledger systems
+## E. Current base geometry — Yokohama official map/ledger systems
 
-### E1. Road-ledger documentation
+| ID | Source | URL | Use |
+|---|---|---|---|
+| E1 | Road-ledger documentation | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/doro/tetsuzuki/daichosys.html | Defines road-ledger plan, road-area map, recognized-route map, public control-point/boundary information; approximately 1:500 plan data. |
+| E2 | Yokohama administrative map portal | https://wwwm.city.yokohama.lg.jp/yokohama/Portal?mid=7 | Entry point for `よこはまのみち`, R-Mappy, C-Mappy and other official map products. |
+| E3 | `よこはまのみち` scale/update information | https://wwwm.city.yokohama.lg.jp/yokohama-sp/yokohama-sp/Content/pages/up_date/5_michi/koushin.html | Verify freshness and nominal scale before tracing existing geometry. Reviewed 2026-09-04: road-ledger plan/area map approx. 1:500; page reported 2026-07-03 update point. |
+| E4 | R-Mappy scale / coordinate information | https://wwwm.city.yokohama.lg.jp/yokohama/yokohama/Content/pages/up_date/12_rmappi/koushin.html | Urban-planning decision-line data around 1:500; road-ledger base layers; JGD2011 / Japan Plane Rectangular CS IX stated by service. |
+| E5 | i-Mappy information page | https://www.city.yokohama.lg.jp/business/bunyabetsu/kenchiku/toshikeikaku/joho/i-mappy.html | Urban-planning facilities / land-readjustment and planning context. |
+| E6 | i-Mappy scale/update information | https://wwwm.city.yokohama.lg.jp/yokohama/yokohama/Content/pages/up_date/2_imapy/koushin.html | Verify current planning-map update dates. |
+| E7 | Yokohama map-content index | https://wwwm.city.yokohama.lg.jp/yokohama/yokohama/Content/pages/links/ichiran.htm | Determine which official map product contains each data class. |
 
-- Authority: Yokohama City, Road and Highway Bureau
-- Title: 道路台帳図面の閲覧
-- URL:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/doro/tetsuzuki/daichosys.html
-- Purpose:
-  - explains official road-ledger plan, road-area map, recognized-route map, public control points and boundary information;
-  - establishes road-ledger plan scale as approximately 1:500.
-- Priority: **P0**
-
-### E2. Yokohama administrative map portal
-
-- Authority: Yokohama City
-- URL:
-  - https://wwwm.city.yokohama.lg.jp/yokohama/Portal?mid=7
-- Purpose:
-  - entry point for `よこはまのみち`, R-Mappy, C-Mappy and other map products.
-- Priority: **P0**
-
-### E3. `よこはまのみち` update/scale information
-
-- Authority: Yokohama City
-- URL:
-  - https://wwwm.city.yokohama.lg.jp/yokohama-sp/yokohama-sp/Content/pages/up_date/5_michi/koushin.html
-- Purpose:
-  - confirm source freshness and nominal scale before using road-ledger geometry.
-- Known 2026-09-04 review result:
-  - road-ledger plan / road-area map approximately 1:500;
-  - source page reports an update point of 2026-07-03.
-- Priority: **P0**
-
-### E4. R-Mappy update/coordinate information
-
-- Authority: Yokohama City
-- URL:
-  - https://wwwm.city.yokohama.lg.jp/yokohama/yokohama/Content/pages/up_date/12_rmappi/koushin.html
-- Purpose:
-  - urban-planning decision-line geometry at approximately 1:500;
-  - road-ledger base layers;
-  - coordinate-reference information.
-- Notable technical information:
-  - JGD2011 / Japan Plane Rectangular CS IX is stated by the service.
-- Priority: **P0**
-
-### E5. i-Mappy
-
-- Authority: Yokohama City
-- Information page:
-  - https://www.city.yokohama.lg.jp/business/bunyabetsu/kenchiku/toshikeikaku/joho/i-mappy.html
-- Update/scale page:
-  - https://wwwm.city.yokohama.lg.jp/yokohama/yokohama/Content/pages/up_date/2_imapy/koushin.html
-- Purpose:
-  - urban-planning facilities / land-readjustment status;
-  - official planning context;
-  - cross-check route designation and planning boundaries.
-- Priority: P1
-
-### E6. Map-content index
-
-- Authority: Yokohama City
-- URL:
-  - https://wwwm.city.yokohama.lg.jp/yokohama/yokohama/Content/pages/links/ichiran.htm
-- Purpose:
-  - determine which Yokohama map product contains each class of data.
-- Priority: P2
+E1–E4 are **P0** for detailed existing-plan reconstruction. E5–E7 are P1/P2 support.
 
 ---
 
@@ -367,164 +148,115 @@ Use sources in this order for reconstruction work:
 
 ### F1. OpenStreetMap
 
-- Authority/source: OpenStreetMap contributors
-- URL:
-  - https://www.openstreetmap.org/
-- Purpose:
-  - independent topology check;
-  - `tunnel`, `bridge`, `layer`, `construction` tags;
-  - machine-readable road/rail geometry for OSMnx.
-- Priority: P1 / corroborative, **not the primary survey base**.
+- URL: https://www.openstreetmap.org/
+- Use: machine-readable topology and independent check, especially `tunnel`, `bridge`, `layer`, `construction` and road/rail connectivity.
+- Role: P1 corroboration, **not the primary detailed survey base**.
 - Attribution: © OpenStreetMap contributors
 - License: ODbL
 
-### F2. GSI map / aerial photograph viewer
+### F2. GSI map / aerial-photo service
 
 - Authority: Geospatial Information Authority of Japan
-- Map/aerial service:
-  - https://service.gsi.go.jp/map-photos/app/map?id=&search=photo
-- General GSI map help:
-  - https://maps.gsi.go.jp/help/index.html
-- Purpose:
-  - independent visual check of current/historical physical geometry;
-  - aerial-photo comparison through construction history.
-- Priority: P1
+- Viewer: https://service.gsi.go.jp/map-photos/app/map?id=&search=photo
+- GSI Map help: https://maps.gsi.go.jp/help/index.html
+- Use: independent current/historical physical-context and construction-history check.
+- Priority: P1.
 
-### F3. GSI usage terms
+### F3. GSI publication/use terms — check before publishing derivatives
 
-- Authority: Geospatial Information Authority of Japan
-- URLs:
-  - https://maps.gsi.go.jp/help/termsofuse.html
-  - https://service.gsi.go.jp/map-photos/app/help
-  - https://web1.gsi.go.jp/LAW/2930-index.html
-- Purpose:
-  - determine whether an aerial/map derivative may be committed or only used transiently for inspection.
-- Priority: P0 before publishing any GSI-derived imagery.
+- https://maps.gsi.go.jp/help/termsofuse.html
+- https://service.gsi.go.jp/map-photos/app/help
+- https://web1.gsi.go.jp/LAW/2930-index.html
+
+Use: determine whether a map/aerial derivative may be committed or should remain transient inspection material.
 
 ---
 
 ## G. Signal / traffic-control authority and methodology
 
-These sources explain how signal and traffic-control work is evaluated. They do not establish the final signal phase of this specific intersection unless the project source explicitly says so.
+These explain signal/traffic-control practice; they do **not** prove this intersection's final 2026 phasing unless a project-specific official source says so.
 
-### G1. National Police Agency — signal installation guideline
+### G1. National Police Agency — current Signal Installation Guideline
 
 - Authority: National Police Agency
-- Title: 信号機設置の指針
-- Official notification index:
-  - https://www.npa.go.jp/laws/notification/koutuu.html
-- Relevant guideline PDF currently available from NPA:
-  - https://www.npa.go.jp/laws/notification/koutuu/kisei/kisei20210324.pdf
-- Purpose:
-  - signal-installation terminology and general criteria;
-  - understand what traffic data/conditions matter.
-- Priority: P1 methodology
-- Freshness rule: because NPA issued a newer signal-installation-guideline notification in March 2026, check the notification index for the latest version before substantive use.
+- Notification index: https://www.npa.go.jp/laws/notification/koutuu.html
+- Current guideline located on 2026-09-04:
+  - `「信号機設置の指針」の制定について（通達）`, 2026-03-27, 丙規発第6号
+  - https://www.npa.go.jp/laws/notification/koutuu/kisei/kisei20260327.pdf
+- Use: traffic volume, intersection shape, pedestrian waiting space, visibility and other signal-installation considerations; signal timing concepts.
+- Priority: P1 methodology.
 
-### G2. Kanagawa Prefectural Police — traffic-control facility management / coordination
+### G2. Kanagawa Prefectural Police — traffic-control facility procedure
 
 - Authority: Kanagawa Prefectural Police
-- Relevant official PDF:
-  - https://www.police.pref.kanagawa.jp/assets/entry/notice/pdf/f10011.pdf
-- Purpose:
-  - understand police-side signal/traffic-control facility procedure;
-  - identifies typical supporting materials such as location map, improvement drawing, site photos, traffic-flow survey and crash-analysis drawing.
-- Priority: P1 methodology
+- URL: https://www.police.pref.kanagawa.jp/assets/entry/notice/pdf/f10011.pdf
+- Use: police-side coordination / facility-management process; identifies typical supporting documents including location map, improvement drawing, site photos, traffic-flow survey and crash-analysis drawing.
+- Priority: P1 methodology.
 
 ---
 
-## H. Road/intersection engineering methodology
+## H. Road / intersection engineering methodology
 
-These are methodology/QA references, not evidence of the as-built/project-specific geometry.
+These are engineering QA/method references. They are **not evidence of the project-specific as-built/future geometry**.
 
-### H1. Ministry of Land, Infrastructure, Transport and Tourism — Road Structure Ordinance explanations
+| ID | Source | URL | Use |
+|---|---|---|---|
+| H1 | MLIT Road Structure Ordinance explanations | https://www.mlit.go.jp/road/sign/kouzourei_kaisetsu.html | Road class, design vehicle/speed, width composition, alignment, sight distance, intersection structures, tunnels/bridges. |
+| H2 | Kyushu Regional Development Bureau road-design guidance | https://www.qsr.mlit.go.jp/site_files/file/s_top/h22doboku/douro/3-02dourosekkei.pdf | Existing-condition assessment, conceptual intersection design, geometric design, traffic-control/traffic-capacity feedback; geometry and control considered together. |
+| H3 | At-grade-intersection design workflow excerpt | https://www.qsr.mlit.go.jp/s_top/h22doboku/douro/3-02.pdf | Stepwise intersection-design workflow and iterative feedback. |
+| H4 | Hokuriku intersection-design reference list | https://www.hrr.mlit.go.jp/gijyutu/kaitei/sekkei_r/02Split/02.PDF | Index to standard Japanese intersection-design references; use latest applicable editions for numeric standards. |
 
-- Authority: MLIT
-- URL:
-  - https://www.mlit.go.jp/road/sign/kouzourei_kaisetsu.html
-- Purpose:
-  - road classification/design vehicle/design speed;
-  - width composition;
-  - horizontal/vertical alignment;
-  - sight distance;
-  - intersection structures;
-  - tunnel/bridge/highway-structure concepts.
-- Priority: P1 methodology
-
-### H2. MLIT regional road-design guidance — at-grade intersection planning/design workflow
-
-- Authority: Kyushu Regional Development Bureau, MLIT
-- URLs:
-  - https://www.qsr.mlit.go.jp/site_files/file/s_top/h22doboku/douro/3-02dourosekkei.pdf
-  - https://www.qsr.mlit.go.jp/s_top/h22doboku/douro/3-02.pdf
-- Purpose:
-  - engineering workflow for existing-condition assessment, conceptual intersection design, geometric design, traffic-control analysis and feedback loops;
-  - supports the project rule that geometry and traffic control must be checked together rather than independently.
-- Priority: P1 methodology
-- Limitation: regional design guidance is a methodology reference; current/latest applicable standards should be checked before treating any numeric design value as authoritative.
-
-### H3. MLIT Hokuriku intersection-design reference list
-
-- Authority: Hokuriku Regional Development Bureau, MLIT
-- URL:
-  - https://www.hrr.mlit.go.jp/gijyutu/kaitei/sekkei_r/02Split/02.PDF
-- Purpose:
-  - useful index of standard Japanese intersection-design references, including the Road Structure Ordinance commentary and Traffic Engineering Association intersection-planning/design manuals.
-- Priority: P2 methodology
+Priority: P1/P2 methodology.
 
 ---
 
-## I. Secondary corroboration / orientation
+## I. Secondary corroboration
 
 ### I1. Kanagawa Prefectural Mitsukyo Support School access page
 
-- Authority: Kanagawa Prefecture / school
-- URL:
-  - https://www.pen-kanagawa.ed.jp/mitsukyo-sh/access.html
-- Purpose:
-  - independent textual orientation around the Sotetsu railway and Nakahara Kaido grade separation.
-- Priority: P2 corroborative
+- URL: https://www.pen-kanagawa.ed.jp/mitsukyo-sh/access.html
+- Use: independent textual orientation around the Sotetsu railway / Nakahara Kaido grade separation.
+- Priority: P2 only.
 
 ---
 
-## J. Sources intentionally excluded from the repository
+## J. Intentionally excluded as repository geometry sources
 
-### Google Maps / user screenshots
+### Google Maps / user-provided screenshots
 
-- May be used only for conversational orientation when supplied by the user.
-- Do not commit screenshots.
-- Do not trace Google Maps geometry into repository outputs.
-- Do not use Google Maps as the geometry authority when Yokohama road-ledger / planning sources are available.
+- May be used in conversation for orientation only.
+- Do not commit.
+- Do not trace into repository geometry.
+- Do not prefer over Yokohama road-ledger / planning sources.
 
-### Temporary PDF renderings
+### Temporary source-PDF renderings
 
-- Yokohama/GSI PDFs or page images may be rendered temporarily in a GitHub Actions artifact for inspection when necessary.
-- Do not commit those rendered pages permanently unless the applicable terms have been reviewed and publication is clearly permitted.
-- Derived geometry must cite the source title/page/feature rather than embedding the source page image.
+- May be generated transiently for inspection.
+- Do not permanently commit source pages/screenshots unless terms have been explicitly reviewed and publication is permitted.
+- Commit provenance/metadata/derived geometry instead.
 
 ---
 
-## K. Mandatory pre-claim checklist
-
-Before asserting any of the following, check these minimum sources:
+## K. Minimum source set by claim
 
 | Claim | Minimum source set |
 |---|---|
 | Existing surface-road geometry | E1/E2/E3 + F1 or F2 check |
 | Existing grade separation | E1/E4 + F1/F2 |
 | Planned Mitsukyo-Shimokusayanagi geometry | A4 + A6 if applicable |
-| 2026 No.1 intersection completion form | A4 + B1 + base-map georeference |
+| 2026 No.1 intersection completion geometry | A4 + B1 + georeferenced official base |
 | Side-road identity/function | E1 + C2 + B1 |
 | Signal existence / installation work | B1 + C4 |
 | Historical signal movement groups | C3 |
-| Final 2026 signal phase/timing | **must have a current official source; C3 alone is insufficient** |
-| Road-design plausibility check | H1/H2, after geometry is already established |
+| Final 2026 signal phase/timing | **current project/police-specific official source required; C3 alone is insufficient** |
+| Engineering plausibility check | H1/H2/H3 after geometry is established |
 
 ## Maintenance rule
 
-Whenever a new official Yokohama, Kanagawa Police, NPA or map-source document is found:
+Whenever a new official Yokohama, Kanagawa Police, NPA or geospatial source is found:
 
-1. add it here before using it;
-2. record whether it supersedes an existing source;
-3. update the investigation notes/geometry provenance;
-4. do not silently replace an earlier source if the design history matters.
+1. register it here before using it;
+2. record whether it supersedes an earlier source;
+3. update geometry provenance / investigation notes;
+4. preserve older sources when they explain design history;
+5. leave unresolved facts as `Unknown` rather than filling gaps by intuition.
