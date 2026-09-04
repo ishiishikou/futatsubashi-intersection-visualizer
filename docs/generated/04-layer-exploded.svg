@@ -12,49 +12,69 @@
   <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="25" font-weight="700" text-anchor="start" x="73" y="207">
     <ns0:tspan dy="0" x="73">① 地上</ns0:tspan>
   </ns0:text>
-  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="17" font-weight="500" text-anchor="start" x="73" y="237">
+  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="19" font-weight="500" text-anchor="start" x="73" y="237">
     <ns0:tspan dy="0" x="73">側道・三ツ境下草柳線</ns0:tspan>
   </ns0:text>
-  <ns0:g />
+  <ns0:g>
+    <ns0:path d="M 102.03,437.16 L 110.59,439.47 L 128.38,446.56 L 137.85,450.84 L 150.74,458.50" fill="none" stroke="#ea580c" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="15" />
+  </ns0:g>
   <ns0:rect fill="#ffffff" height="650" rx="18" ry="18" stroke="#cbd5e1" stroke-width="2" width="350" x="430" y="165" />
   <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="25" font-weight="700" text-anchor="start" x="448" y="207">
     <ns0:tspan dy="0" x="448">② 下</ns0:tspan>
   </ns0:text>
-  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="17" font-weight="500" text-anchor="start" x="448" y="237">
+  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="19" font-weight="500" text-anchor="start" x="448" y="237">
     <ns0:tspan dy="0" x="448">県道45号アンダーパス</ns0:tspan>
   </ns0:text>
   <ns0:g>
-    <ns0:path d="M 723.96,425.23 L 723.96,425.23 L 711.22,438.78 L 653.63,494.62 L 617.73,527.81 L 602.07,542.29 L 594.97,548.86" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
-    <ns0:path d="M 494.81,633.45 L 551.11,580.87" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
-    <ns0:path d="M 531.05,607.48 L 499.67,637.20 L 499.26,637.60" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
-    <ns0:path d="M 551.11,580.87 L 584.44,550.40 L 588.05,547.10 L 591.33,544.10" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
-    <ns0:path d="M 594.97,548.86 L 590.22,553.05 L 567.29,573.62 L 560.91,579.53 L 531.05,607.48" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
-    <ns0:path d="M 685.32,455.62 L 700.74,440.66 L 717.29,422.65 L 719.47,420.27" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
-    <ns0:path d="M 591.33,544.10 L 654.78,485.25 L 685.32,455.62" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
+    <ns0:path d="M 597.06,537.44 L 543.53,588.40 L 529.47,600.65" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
+    <ns0:path d="M 592.04,532.47 L 624.43,501.39" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
+    <ns0:path d="M 627.97,505.47 L 597.06,537.44" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
+    <ns0:path d="M 624.43,501.39 L 630.77,495.31 L 677.12,450.93" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
+    <ns0:path d="M 492.05,630.41 L 501.46,621.24 L 503.79,618.90 L 506.71,616.12 L 530.07,591.64 L 540.00,582.50 L 592.04,532.47" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
+    <ns0:path d="M 677.12,450.93 L 715.11,415.45" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
+    <ns0:path d="M 684.44,451.60 L 627.97,505.47" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
+    <ns0:path d="M 718.43,419.13 L 691.76,444.39 L 684.44,451.60" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
+    <ns0:path d="M 529.47,600.65 L 518.43,610.80" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
+    <ns0:path d="M 518.43,610.80 L 513.55,615.42 L 508.95,619.79 L 506.34,622.61 L 500.48,628.72 L 495.33,634.02" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.22" stroke-width="8" />
+    <ns0:path d="M 592.04,532.47 L 624.43,501.39" fill="none" stroke="#166534" stroke-dasharray="18,12" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="19" />
+    <ns0:path d="M 627.97,505.47 L 597.06,537.44" fill="none" stroke="#166534" stroke-dasharray="18,12" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="19" />
   </ns0:g>
   <ns0:rect fill="#ffffff" height="650" rx="18" ry="18" stroke="#cbd5e1" stroke-width="2" width="350" x="805" y="165" />
   <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="25" font-weight="700" text-anchor="start" x="823" y="207">
     <ns0:tspan dy="0" x="823">③ 上</ns0:tspan>
   </ns0:text>
-  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="17" font-weight="500" text-anchor="start" x="823" y="237">
+  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="19" font-weight="500" text-anchor="start" x="823" y="237">
     <ns0:tspan dy="0" x="823">相鉄線</ns0:tspan>
   </ns0:text>
-  <ns0:g />
+  <ns0:g>
+    <ns0:path d="M 826.60,503.56 L 868.96,504.42 L 889.62,505.41 L 904.25,507.00 L 921.88,509.31 L 936.20,511.75 L 951.35,514.84 L 964.17,518.45 L 981.89,523.90 L 998.37,529.74 L 1011.56,535.52 L 1022.49,540.17 L 1026.52,541.89 L 1049.61,554.23 L 1119.64,591.34" fill="none" stroke="#7c2d12" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="11" />
+    <ns0:path d="M 1118.51,593.73 L 1048.62,556.13 L 1025.66,544.05 L 1021.35,542.16 L 1010.84,537.56 L 997.64,532.04 L 980.35,525.64 L 963.59,520.62 L 950.50,517.15 L 935.90,513.79 L 921.84,511.77 L 904.76,509.46 L 889.31,508.00 L 868.65,507.14 L 826.21,506.21" fill="none" stroke="#7c2d12" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="11" />
+  </ns0:g>
   <ns0:rect fill="#ffffff" height="650" rx="18" ry="18" stroke="#cbd5e1" stroke-width="2" width="350" x="1180" y="165" />
   <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="25" font-weight="700" text-anchor="start" x="1198" y="207">
     <ns0:tspan dy="0" x="1198">④ 重ねる</ns0:tspan>
   </ns0:text>
-  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="17" font-weight="500" text-anchor="start" x="1198" y="237">
+  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="19" font-weight="500" text-anchor="start" x="1198" y="237">
     <ns0:tspan dy="0" x="1198">①＋②＋③</ns0:tspan>
   </ns0:text>
   <ns0:g>
-    <ns0:path d="M 1473.96,425.23 L 1473.96,425.23 L 1461.22,438.78 L 1403.63,494.62 L 1367.73,527.81 L 1352.07,542.29 L 1344.97,548.86" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
-    <ns0:path d="M 1244.81,633.45 L 1301.11,580.87" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
-    <ns0:path d="M 1281.05,607.48 L 1249.67,637.20 L 1249.26,637.60" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
-    <ns0:path d="M 1301.11,580.87 L 1334.44,550.40 L 1338.05,547.10 L 1341.33,544.10" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
-    <ns0:path d="M 1344.97,548.86 L 1340.22,553.05 L 1317.29,573.62 L 1310.91,579.53 L 1281.05,607.48" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
-    <ns0:path d="M 1435.32,455.62 L 1450.74,440.66 L 1467.29,422.65 L 1469.47,420.27" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
-    <ns0:path d="M 1341.33,544.10 L 1404.78,485.25 L 1435.32,455.62" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
+    <ns0:path d="M 1347.06,537.44 L 1293.53,588.40 L 1279.47,600.65" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
+    <ns0:path d="M 1342.04,532.47 L 1374.43,501.39" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
+    <ns0:path d="M 1377.97,505.47 L 1347.06,537.44" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
+    <ns0:path d="M 1374.43,501.39 L 1380.77,495.31 L 1427.12,450.93" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
+    <ns0:path d="M 1242.05,630.41 L 1251.46,621.24 L 1253.79,618.90 L 1256.71,616.12 L 1280.07,591.64 L 1290.00,582.50 L 1342.04,532.47" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
+    <ns0:path d="M 1427.12,450.93 L 1465.11,415.45" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
+    <ns0:path d="M 1434.44,451.60 L 1377.97,505.47" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
+    <ns0:path d="M 1468.43,419.13 L 1441.76,444.39 L 1434.44,451.60" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
+    <ns0:path d="M 1279.47,600.65 L 1268.43,610.80" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
+    <ns0:path d="M 1268.43,610.80 L 1263.55,615.42 L 1258.95,619.79 L 1256.34,622.61 L 1250.48,628.72 L 1245.33,634.02" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="10" />
+    <ns0:path d="M 1342.04,532.47 L 1374.43,501.39" fill="none" stroke="#166534" stroke-dasharray="18,12" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="17" />
+    <ns0:path d="M 1377.97,505.47 L 1347.06,537.44" fill="none" stroke="#166534" stroke-dasharray="18,12" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="17" />
+    <ns0:path d="M 1227.03,437.16 L 1235.59,439.47 L 1253.38,446.56 L 1262.85,450.84 L 1275.74,458.50" fill="none" stroke="#ea580c" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="13" />
+    <ns0:path d="M 1201.60,503.56 L 1243.96,504.42 L 1264.62,505.41 L 1279.25,507.00 L 1296.88,509.31 L 1311.20,511.75 L 1326.35,514.84 L 1339.17,518.45 L 1356.89,523.90 L 1373.37,529.74 L 1386.56,535.52 L 1397.49,540.17 L 1401.52,541.89 L 1424.61,554.23 L 1494.64,591.34" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="16" />
+    <ns0:path d="M 1493.51,593.73 L 1423.62,556.13 L 1400.66,544.05 L 1396.35,542.16 L 1385.84,537.56 L 1372.64,532.04 L 1355.35,525.64 L 1338.59,520.62 L 1325.50,517.15 L 1310.90,513.79 L 1296.84,511.77 L 1279.76,509.46 L 1264.31,508.00 L 1243.65,507.14 L 1201.21,506.21" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="16" />
+    <ns0:path d="M 1201.60,503.56 L 1243.96,504.42 L 1264.62,505.41 L 1279.25,507.00 L 1296.88,509.31 L 1311.20,511.75 L 1326.35,514.84 L 1339.17,518.45 L 1356.89,523.90 L 1373.37,529.74 L 1386.56,535.52 L 1397.49,540.17 L 1401.52,541.89 L 1424.61,554.23 L 1494.64,591.34" fill="none" stroke="#7c2d12" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="8" />
+    <ns0:path d="M 1493.51,593.73 L 1423.62,556.13 L 1400.66,544.05 L 1396.35,542.16 L 1385.84,537.56 L 1372.64,532.04 L 1355.35,525.64 L 1338.59,520.62 L 1325.50,517.15 L 1310.90,513.79 L 1296.84,511.77 L 1279.76,509.46 L 1264.31,508.00 L 1243.65,507.14 L 1201.21,506.21" fill="none" stroke="#7c2d12" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="8" />
   </ns0:g>
   <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="20" font-weight="600" text-anchor="start" x="70" y="875">
     <ns0:tspan dy="0" x="70">OSMで確認できるタグ：県道45号 tunnel=yes / layer=-1、相模鉄道本線 layer=1、三ツ境下草柳線 highway=construction</ns0:tspan>
