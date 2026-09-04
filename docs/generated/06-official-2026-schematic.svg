@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" baseProfile="full" height="1050" version="1.1" viewBox="0 0 1600 1050" width="1600">
+  <ns0:defs />
+  <ns0:rect fill="#f8fafc" height="1050" width="1600" x="0" y="0" />
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="36" font-weight="700" text-anchor="start" x="55" y="58">
+    <ns0:tspan dy="0" x="55">1号交差点：2026年8月の完成イメージを立体構造と合わせて読む</ns0:tspan>
+  </ns0:text>
+  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="21" font-weight="500" text-anchor="start" x="55" y="105">
+    <ns0:tspan dy="0" x="55">現況OSMで確認した上下関係と、横浜市の最新工事説明会資料を分けて重ねずに整理</ns0:tspan>
+  </ns0:text>
+  <ns0:rect fill="#ffffff" height="700" rx="18" ry="18" stroke="#cbd5e1" stroke-width="2" width="980" x="55" y="145" />
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="27" font-weight="700" text-anchor="start" x="79" y="189">
+    <ns0:tspan dy="0" x="79">地上：1号交差点の完成形を単純化</ns0:tspan>
+  </ns0:text>
+  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="18" font-weight="500" text-anchor="start" x="79" y="221">
+    <ns0:tspan dy="0" x="79">横浜市の2026年8月『完成イメージ』を、構造だけ分かるよう模式化</ns0:tspan>
+  </ns0:text>
+  <ns0:path d="M 925,755 C 800,715 680,670 555,610" fill="none" stroke="#e2e8f0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="86" />
+  <ns0:path d="M 925,755 C 800,715 680,670 555,610" fill="none" stroke="#475569" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="5" />
+  <ns0:path d="M 555,610 C 475,565 410,500 380,430 C 355,375 320,338 265,322" fill="none" stroke="#ffedd5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="92" />
+  <ns0:path d="M 555,610 C 475,565 410,500 380,430 C 355,375 320,338 265,322" fill="none" stroke="#ea580c" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="18" />
+  <ns0:path d="M 380,430 C 500,418 615,405 755,340" fill="none" stroke="#e2e8f0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="62" />
+  <ns0:path d="M 380,430 C 500,418 615,405 755,340" fill="none" stroke="#475569" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="4" />
+  <ns0:path d="M 625,655 C 730,580 815,495 920,395" fill="none" stroke="#e2e8f0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="62" />
+  <ns0:path d="M 625,655 C 730,580 815,495 920,395" fill="none" stroke="#475569" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="4" />
+  <ns0:path d="M 515,480 C 565,425 665,410 735,455 C 785,488 792,555 758,597 C 715,650 615,652 560,600 C 525,566 503,520 515,480 Z" fill="#f1f5f9" stroke="#475569" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="4" />
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="24" font-weight="700" text-anchor="middle" x="645" y="534">
+    <ns0:tspan dy="0" x="645">交通島</ns0:tspan>
+  </ns0:text>
+  <ns0:g transform="translate(345,382) rotate(26)">
+    <ns0:rect fill="#fee2e2" height="36" rx="3" ry="3" stroke="#dc2626" stroke-width="2" width="90" x="-45.0" y="-18.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-37" x2="-37" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-23" x2="-23" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-9" x2="-9" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="5" x2="5" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="19" x2="19" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="33" x2="33" y1="-14.0" y2="14.0" />
+  </ns0:g>
+  <ns0:rect fill="#0f172a" height="34" rx="4" ry="4" stroke="#ffffff" stroke-width="1.5" width="20" x="293" y="340" />
+  <ns0:circle cx="303" cy="350" fill="#ef4444" r="4.2" />
+  <ns0:circle cx="303" cy="364" fill="#22c55e" r="4.2" />
+  <ns0:rect fill="#0f172a" height="34" rx="4" ry="4" stroke="#ffffff" stroke-width="1.5" width="20" x="377" y="390" />
+  <ns0:circle cx="387" cy="400" fill="#ef4444" r="4.2" />
+  <ns0:circle cx="387" cy="414" fill="#22c55e" r="4.2" />
+  <ns0:g transform="translate(425,432) rotate(-8)">
+    <ns0:rect fill="#fee2e2" height="36" rx="3" ry="3" stroke="#dc2626" stroke-width="2" width="90" x="-45.0" y="-18.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-37" x2="-37" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-23" x2="-23" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-9" x2="-9" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="5" x2="5" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="19" x2="19" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="33" x2="33" y1="-14.0" y2="14.0" />
+  </ns0:g>
+  <ns0:rect fill="#0f172a" height="34" rx="4" ry="4" stroke="#ffffff" stroke-width="1.5" width="20" x="373" y="390" />
+  <ns0:circle cx="383" cy="400" fill="#ef4444" r="4.2" />
+  <ns0:circle cx="383" cy="414" fill="#22c55e" r="4.2" />
+  <ns0:rect fill="#0f172a" height="34" rx="4" ry="4" stroke="#ffffff" stroke-width="1.5" width="20" x="457" y="440" />
+  <ns0:circle cx="467" cy="450" fill="#ef4444" r="4.2" />
+  <ns0:circle cx="467" cy="464" fill="#22c55e" r="4.2" />
+  <ns0:g transform="translate(750,456) rotate(36)">
+    <ns0:rect fill="#fee2e2" height="36" rx="3" ry="3" stroke="#dc2626" stroke-width="2" width="90" x="-45.0" y="-18.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-37" x2="-37" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-23" x2="-23" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-9" x2="-9" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="5" x2="5" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="19" x2="19" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="33" x2="33" y1="-14.0" y2="14.0" />
+  </ns0:g>
+  <ns0:rect fill="#0f172a" height="34" rx="4" ry="4" stroke="#ffffff" stroke-width="1.5" width="20" x="698" y="414" />
+  <ns0:circle cx="708" cy="424" fill="#ef4444" r="4.2" />
+  <ns0:circle cx="708" cy="438" fill="#22c55e" r="4.2" />
+  <ns0:rect fill="#0f172a" height="34" rx="4" ry="4" stroke="#ffffff" stroke-width="1.5" width="20" x="782" y="464" />
+  <ns0:circle cx="792" cy="474" fill="#ef4444" r="4.2" />
+  <ns0:circle cx="792" cy="488" fill="#22c55e" r="4.2" />
+  <ns0:g transform="translate(850,625) rotate(29)">
+    <ns0:rect fill="#fee2e2" height="36" rx="3" ry="3" stroke="#dc2626" stroke-width="2" width="90" x="-45.0" y="-18.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-37" x2="-37" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-23" x2="-23" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-9" x2="-9" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="5" x2="5" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="19" x2="19" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="33" x2="33" y1="-14.0" y2="14.0" />
+  </ns0:g>
+  <ns0:rect fill="#0f172a" height="34" rx="4" ry="4" stroke="#ffffff" stroke-width="1.5" width="20" x="798" y="583" />
+  <ns0:circle cx="808" cy="593" fill="#ef4444" r="4.2" />
+  <ns0:circle cx="808" cy="607" fill="#22c55e" r="4.2" />
+  <ns0:rect fill="#0f172a" height="34" rx="4" ry="4" stroke="#ffffff" stroke-width="1.5" width="20" x="882" y="633" />
+  <ns0:circle cx="892" cy="643" fill="#ef4444" r="4.2" />
+  <ns0:circle cx="892" cy="657" fill="#22c55e" r="4.2" />
+  <ns0:g transform="translate(895,745) rotate(23)">
+    <ns0:rect fill="#fee2e2" height="36" rx="3" ry="3" stroke="#dc2626" stroke-width="2" width="90" x="-45.0" y="-18.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-37" x2="-37" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-23" x2="-23" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-9" x2="-9" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="5" x2="5" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="19" x2="19" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="33" x2="33" y1="-14.0" y2="14.0" />
+  </ns0:g>
+  <ns0:rect fill="#0f172a" height="34" rx="4" ry="4" stroke="#ffffff" stroke-width="1.5" width="20" x="843" y="703" />
+  <ns0:circle cx="853" cy="713" fill="#ef4444" r="4.2" />
+  <ns0:circle cx="853" cy="727" fill="#22c55e" r="4.2" />
+  <ns0:rect fill="#0f172a" height="34" rx="4" ry="4" stroke="#ffffff" stroke-width="1.5" width="20" x="927" y="753" />
+  <ns0:circle cx="937" cy="763" fill="#ef4444" r="4.2" />
+  <ns0:circle cx="937" cy="777" fill="#22c55e" r="4.2" />
+  <ns0:g transform="translate(275,428) rotate(76)">
+    <ns0:rect fill="#fee2e2" height="36" rx="3" ry="3" stroke="#dc2626" stroke-width="2" width="90" x="-45.0" y="-18.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-37" x2="-37" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-23" x2="-23" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="-9" x2="-9" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="5" x2="5" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="19" x2="19" y1="-14.0" y2="14.0" />
+    <ns0:line stroke="#dc2626" stroke-linecap="round" stroke-width="4" x1="33" x2="33" y1="-14.0" y2="14.0" />
+  </ns0:g>
+  <ns0:rect fill="#0f172a" height="34" rx="4" ry="4" stroke="#ffffff" stroke-width="1.5" width="20" x="223" y="386" />
+  <ns0:circle cx="233" cy="396" fill="#ef4444" r="4.2" />
+  <ns0:circle cx="233" cy="410" fill="#22c55e" r="4.2" />
+  <ns0:rect fill="#0f172a" height="34" rx="4" ry="4" stroke="#ffffff" stroke-width="1.5" width="20" x="307" y="436" />
+  <ns0:circle cx="317" cy="446" fill="#ef4444" r="4.2" />
+  <ns0:circle cx="317" cy="460" fill="#22c55e" r="4.2" />
+  <ns0:text fill="#ea580c" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="22" font-weight="700" text-anchor="start" x="182" y="285">
+    <ns0:tspan dy="0" x="182">新設道路側</ns0:tspan>
+    <ns0:tspan dy="28.16" x="182">（三ツ境下草柳線）</ns0:tspan>
+  </ns0:text>
+  <ns0:line fill="none" stroke="#ea580c" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="3" x1="285" x2="320" y1="323" y2="347" />
+  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="22" font-weight="700" text-anchor="start" x="810" y="805">
+    <ns0:tspan dy="0" x="810">三ツ境駅前からの</ns0:tspan>
+    <ns0:tspan dy="28.16" x="810">既存道路側</ns0:tspan>
+  </ns0:text>
+  <ns0:line fill="none" stroke="#475569" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="3" x1="830" x2="788" y1="758" y2="728" />
+  <ns0:text fill="#0369a1" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="20" font-weight="700" text-anchor="middle" x="610" y="334">
+    <ns0:tspan dy="0" x="610">横断歩道・歩行者信号を複数追加</ns0:tspan>
+  </ns0:text>
+  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="18" font-weight="500" text-anchor="middle" x="610" y="845">
+    <ns0:tspan dy="0" x="610">※線形・横断歩道位置は読みやすさのため単純化。正確な寸法図ではありません。</ns0:tspan>
+  </ns0:text>
+  <ns0:rect fill="#ffffff" height="700" rx="18" ry="18" stroke="#cbd5e1" stroke-width="2" width="485" x="1060" y="145" />
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="27" font-weight="700" text-anchor="start" x="1084" y="189">
+    <ns0:tspan dy="0" x="1084">上下関係</ns0:tspan>
+  </ns0:text>
+  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="18" font-weight="500" text-anchor="start" x="1084" y="221">
+    <ns0:tspan dy="0" x="1084">ここが今回の重要点</ns0:tspan>
+  </ns0:text>
+  <ns0:text fill="#7c2d12" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="24" font-weight="700" text-anchor="start" x="1098" y="290">
+    <ns0:tspan dy="0" x="1098">上</ns0:tspan>
+  </ns0:text>
+  <ns0:line fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="24" x1="1160" x2="1497" y1="285" y2="330" />
+  <ns0:line fill="none" stroke="#7c2d12" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="10" x1="1160" x2="1497" y1="285" y2="330" />
+  <ns0:text fill="#7c2d12" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="22" font-weight="700" text-anchor="middle" x="1302.5" y="270">
+    <ns0:tspan dy="0" x="1302.5">相鉄線</ns0:tspan>
+  </ns0:text>
+  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="24" font-weight="700" text-anchor="start" x="1098" y="475">
+    <ns0:tspan dy="0" x="1098">地上</ns0:tspan>
+  </ns0:text>
+  <ns0:rect fill="#ffedd5" height="88" rx="18" ry="18" stroke="#ea580c" stroke-width="4" width="335" x="1160" y="430" />
+  <ns0:text fill="#ea580c" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="25" font-weight="700" text-anchor="middle" x="1317.5" y="467">
+    <ns0:tspan dy="0" x="1317.5">1号交差点</ns0:tspan>
+  </ns0:text>
+  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="18" font-weight="500" text-anchor="middle" x="1317.5" y="495">
+    <ns0:tspan dy="0" x="1317.5">交通島・横断歩道・信号</ns0:tspan>
+  </ns0:text>
+  <ns0:text fill="#15803d" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="24" font-weight="700" text-anchor="start" x="1098" y="665">
+    <ns0:tspan dy="0" x="1098">下</ns0:tspan>
+  </ns0:text>
+  <ns0:path d="M 1165,665 C 1245,635 1345,693 1500,660" fill="none" stroke="#15803d" stroke-dasharray="22,14" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="14" />
+  <ns0:text fill="#15803d" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="22" font-weight="700" text-anchor="middle" x="1312.5" y="720">
+    <ns0:tspan dy="0" x="1312.5">県道45号（中原街道）</ns0:tspan>
+    <ns0:tspan dy="28.16" x="1312.5">アンダーパス</ns0:tspan>
+  </ns0:text>
+  <ns0:line fill="none" stroke="#cbd5e1" stroke-dasharray="7,7" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="2" x1="1134" x2="1509" y1="350" y2="350" />
+  <ns0:line fill="none" stroke="#cbd5e1" stroke-dasharray="7,7" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="2" x1="1134" x2="1509" y1="565" y2="565" />
+  <ns0:rect fill="#fff7ed" height="62" rx="14" ry="14" stroke="#fed7aa" stroke-width="2" width="425" x="1090" y="760" />
+  <ns0:text fill="#9a3412" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="1302.5" y="797">
+    <ns0:tspan dy="0" x="1302.5">3つを同じ平面の交差点として見ると誤解します</ns0:tspan>
+  </ns0:text>
+  <ns0:rect fill="#ffffff" height="115" rx="16" ry="16" stroke="#cbd5e1" stroke-width="2" width="1490" x="55" y="875" />
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="22" font-weight="700" text-anchor="start" x="80" y="914">
+    <ns0:tspan dy="0" x="80">結論</ns0:tspan>
+  </ns0:text>
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="20" font-weight="600" text-anchor="start" x="155" y="914">
+    <ns0:tspan dy="0" x="155">県道45号のアンダーパスを新しい大交差点に作り替えるのではなく、地上で既存道路と新設道路を交通島まわりに接続し、横断歩道・信号を追加する計画です。</ns0:tspan>
+  </ns0:text>
+  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="18" font-weight="500" text-anchor="start" x="155" y="954">
+    <ns0:tspan dy="0" x="155">2018年資料には5段階の信号パターン検討案がありますが、2026年の最終的な車両信号現示・秒数までは今回の公開資料から断定していません。</ns0:tspan>
+  </ns0:text>
+  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="18" font-weight="500" text-anchor="end" x="1545" y="1024">
+    <ns0:tspan dy="0" x="1545">Sources: 横浜市 工事説明会資料（2026-08-06/08）・OpenStreetMap current geometry</ns0:tspan>
+  </ns0:text>
+</ns0:svg>
