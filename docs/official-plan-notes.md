@@ -1,56 +1,70 @@
 # Official plan notes
 
-このノートは、公開資料から確認できる事項と、可視化上の解釈を分離するためのものです。
+This note records current confirmed facts and explicitly separates them from the next-stage reconstruction work.
 
-## 1号交差点の位置づけ
+## Current status of the reconstruction
 
-横浜市の2026年8月6日・8日工事説明会資料では、三ツ境駅側からの既存道路と新設道路を接続するため、1号交差点の形状を変更する工事が説明されています。PDF 21ページ目（スライド番号20）の「完成イメージ」では、**交通島、新たな横断歩道、信号**が示されています。
+The investigation is being reset around the process documented in [investigation-plan.md](investigation-plan.md).
 
-- 横浜市 2026年8月 工事説明会資料への案内ページ
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.html
-- 2026年8月資料
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0039_20260807.pdf
-- 2025年7月資料にも「5-2. 交差点改良」として、三ツ境駅前からの道路と新設道路をつなげるため交差点形状を変更し、新たな横断歩道を作る旨が掲載されています。
+Important distinction:
 
-ここでいう交差点改良は、県道45号（中原街道）の線路下本線を平面交差点化することを意味しません。現況OSMでは県道45号の該当区間が `tunnel=yes / layer=-1`、相模鉄道本線が `layer=1` と登録されており、本リポジトリではこの上下関係を保持して扱います。
+- the **grade-separated relationship** around Route 45 / Nakahara Kaido, the surface roads and Sotetsu railway is supported by public geospatial evidence;
+- the exact **future surface-plan geometry** of the No.1 intersection must still be tied to Yokohama road-ledger / planning geometry before it is treated as reconstructed.
 
-### 2026年完成イメージから模式図へ反映したもの
+`docs/generated/06-official-2026-schematic.*` is therefore a provisional explanatory sketch, not an accepted reconstruction.
 
-`docs/generated/06-official-2026-schematic.*` には、次の内容だけを反映しています。
+## No.1 intersection — official statements
 
-- 三ツ境駅前からの既存道路と新設道路を地上で接続すること
-- 交通島があること
-- 交通島周辺に複数の横断歩道・歩行者信号が示されていること
-- OSMで確認した「相鉄線＝上、地上道路＝地上、県道45号アンダーパス＝下」というレイヤー関係
+Yokohama construction material states that the intersection shape is being changed to connect the existing road from the Mitsukyo-station side with the newly constructed road and that new pedestrian crossings/signals are being provided.
 
-一方、完成イメージは施工図・信号現示表ではないため、次は断定しません。
+Primary source landing page:
 
-- 正確な車線幅・曲線半径・寸法
-- 各横断歩道や信号灯器の測量上の座標
-- 2026年時点の最終的な車両信号現示、青時間、サイクル長
-- 2018年検討案がそのまま最終採用されたかどうか
+- https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.html
 
-## 2018年の信号パターン検討案
+August 2026 construction briefing:
 
-横浜市「第1期地区まちづくりニュース 第7号 別紙」（2018年5月18日発行）では、1号交差点について、歩行者・車両が交差点内で錯綜しないよう神奈川県警察と協議中として、次の信号パターン検討案が掲載されています。
+- https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0039_20260807.pdf
 
-1. 三ツ境下草柳線の直進・左折進行
-2. 三ツ境下草柳線の右折（2方向）進行
-3. 中原街道の側道 西側進行
-4. 中原街道の側道 東側進行
-5. 歩行者
+The August 2026 completion illustration is useful for identifying planned features such as intersection modification, channelisation/traffic-island treatment, crossings and signals. It must not be treated as survey-grade linework until it has been checked/georeferenced against the current legal project plan and road-ledger base.
 
-資料には「今後の協議や実際の運用状況によって変更することがあります」と明記されています。このため、本リポジトリでこの5段階を描く場合は **2018年時点の検討案** と明示し、2026年時点の最終信号現示として扱いません。
+## Grade separation
 
-- 過去号一覧
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.html
-- 第7号 PDF
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.files/0008_20190313.pdf
+The project reconstruction must preserve the existing vertical separation. OpenStreetMap has provided useful corroboration (`tunnel=yes / layer=-1` for the relevant Route 45 underpass geometry and `layer=1` for railway geometry), but OSM is no longer the primary base for the detailed plan reconstruction.
 
-## 可視化ルール
+For detailed existing geometry, use the Yokohama road-ledger / R-Mappy sources registered in [../sources/source-register.md](../sources/source-register.md).
 
-- OSMで確認した現況形状は `Observed` とする。
-- 横浜市の資料に明記された交差点改良・交通島・横断歩道・信号内容は `Official plan` とする。
-- PDF画像そのものはコミットしない。
-- 公式図を説明用に単純化したSVGは `Schematic interpretation` と明記する。
-- 最終信号灯器の正確な位置、信号秒数、2026年時点の最終現示は、公式資料で確認できない限り描かない。
+## 2018 signal-pattern study
+
+Yokohama's first-phase newsletter No.7 (2018-05-18) published a study concept for No.1 intersection in which the movement groups were described as:
+
+1. Mitsukyo-Shimokusayanagi through / left-turn movement
+2. Mitsukyo-Shimokusayanagi right-turn movement (two directions)
+3. Nakahara Kaido side-road west movement
+4. Nakahara Kaido side-road east movement
+5. pedestrian movement
+
+Direct source:
+
+- https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.files/0008_20190313.pdf
+
+The source states that the concept may change through later coordination / actual operation. Therefore it remains **historical signal-study evidence** only and must not be presented as the confirmed 2026 final indication sequence or timing.
+
+## 2017 side-road discussion
+
+First-phase newsletter No.6 explicitly discusses `中原街道の側道` and the relationship between closely spaced intersections / school-route handling around No.1 intersection.
+
+Direct source:
+
+- https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.files/0007_20190313.pdf
+
+This is important historical evidence for identifying the surface side-road concept, but the physical segment mapping still has to be matched to the current road-ledger geometry.
+
+## Source / visualization rules
+
+- `Observed`: directly supported existing condition.
+- `Official plan`: directly stated or drawn in an official project source.
+- `Derived`: transformed/georeferenced/simplified from registered sources.
+- `Interpretation`: consistent engineering interpretation, but not explicitly stated by the source.
+- `Unknown`: evidence insufficient.
+
+Do not publish exact final signal-head locations, lane assignments, timing, phase sequence, turning permissions or survey-grade geometry unless a current official source supports them.
