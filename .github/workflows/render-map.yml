@@ -50,6 +50,14 @@ jobs:
           echo "exit_code=$code" >> "$GITHUB_OUTPUT"
           exit 0
 
+      - name: Make successful SVG output reviewable
+        if: steps.build.outputs.exit_code == '0'
+        run: |
+          python scripts/prettify_svg.py \
+            docs/generated/01-current-osm.svg \
+            docs/generated/02-grade-separation.svg
+          rm -f docs/generated/build.log
+
       - name: Inspect SVG structure
         if: steps.build.outputs.exit_code == '0'
         run: |
@@ -80,7 +88,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/generated/
+          git add -A docs/generated/
           git diff --cached --quiet && exit 0
           git commit -m "Render current OSM structure [skip ci]"
           git push
