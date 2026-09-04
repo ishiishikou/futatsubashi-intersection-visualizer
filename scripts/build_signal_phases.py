@@ -41,8 +41,10 @@ def text(dwg, x, y, value, *, size=22, weight=500, fill=None, anchor="start"):
 
 
 def arrow_marker(dwg, color, marker_id):
-    m = dwg.marker(insert=(10, 5), size=(10, 10), orient="auto", id=marker_id)
-    m.add(dwg.path(d="M 0 0 L 10 5 L 0 10 z", fill=color))
+    # SVG markers scale with stroke width by default. Keep the marker small so
+    # direction is readable without the arrowhead obscuring the road geometry.
+    m = dwg.marker(insert=(4, 2), size=(4, 4), orient="auto", id=marker_id)
+    m.add(dwg.path(d="M 0 0 L 4 2 L 0 4 z", fill=color))
     dwg.defs.add(m)
     return m
 
@@ -69,9 +71,9 @@ def base_intersection(dwg, x, y, w, h):
     route(dwg, (cx - 58, bottom), (cx - 18, cy + 6), color=C["inactive"], width=14)
     route(dwg, (cx + 58, bottom), (cx + 18, cy + 6), color=C["inactive"], width=14)
 
-    text(dwg, cx, y + 28, "三ツ境下草柳線", size=17, weight=600, fill=C["muted"], anchor="middle")
-    text(dwg, cx - 80, bottom + 18, "側道 西", size=16, weight=500, fill=C["muted"], anchor="middle")
-    text(dwg, cx + 80, bottom + 18, "側道 東", size=16, weight=500, fill=C["muted"], anchor="middle")
+    text(dwg, cx, y + 28, "三ツ境下草柳線", size=18, weight=600, fill=C["muted"], anchor="middle")
+    text(dwg, cx - 80, bottom + 18, "側道 西", size=18, weight=500, fill=C["muted"], anchor="middle")
+    text(dwg, cx + 80, bottom + 18, "側道 東", size=18, weight=500, fill=C["muted"], anchor="middle")
     return cx, cy, left, right, bottom
 
 
@@ -79,7 +81,7 @@ def card(dwg, x, y, w, h, number, title, description, mode, green, blue):
     dwg.add(dwg.rect(insert=(x, y), size=(w, h), rx=18, ry=18, fill=C["card"], stroke=C["border"], stroke_width=2))
     text(dwg, x + 22, y + 38, f"{number}", size=26, weight=700)
     text(dwg, x + 62, y + 38, title, size=23, weight=700)
-    text(dwg, x + 22, y + 72, description, size=17, weight=500, fill=C["muted"])
+    text(dwg, x + 22, y + 72, description, size=18, weight=500, fill=C["muted"])
 
     ix, iy, iw, ih = x + 18, y + 96, w - 36, h - 126
     cx, cy, left, right, bottom = base_intersection(dwg, ix, iy, iw, ih)
@@ -100,7 +102,7 @@ def card(dwg, x, y, w, h, number, title, description, mode, green, blue):
         # Cars are intentionally not given active arrows in this phase.
         route(dwg, (cx - 82, cy - 52), (cx + 82, cy + 52), color=C["ped"], width=7, marker=blue, dash="12,8")
         route(dwg, (cx + 82, cy - 52), (cx - 82, cy + 52), color=C["ped"], width=7, marker=blue, dash="12,8")
-        text(dwg, cx, cy + 8, "歩行者", size=20, weight=700, fill=C["ped"], anchor="middle")
+        text(dwg, cx, cy + 92, "歩行者横断", size=20, weight=700, fill=C["ped"], anchor="middle")
 
 
 def main():
@@ -134,7 +136,7 @@ def main():
     text(dwg, 185, 842, "県道45号の線路下本線を5段階で止める図ではなく、地上の三ツ境下草柳線と中原街道側道を分けて処理する検討案です。", size=19, weight=600)
     text(dwg, 185, 878, "横浜市は当時『歩行者、車両の双方が交差点内で錯綜しないよう検討』と説明し、運用状況等で変更する可能性も明記しています。", size=18, weight=500, fill=C["muted"])
 
-    text(dwg, W - 70, H - 32, "Source: 横浜市 第1期地区まちづくりニュース 第7号 別紙 (2018-05-18)", size=17, weight=500, fill=C["muted"], anchor="end")
+    text(dwg, W - 70, H - 32, "Source: 横浜市 第1期地区まちづくりニュース 第7号 別紙 (2018-05-18)", size=18, weight=500, fill=C["muted"], anchor="end")
     dwg.save()
     cairosvg.svg2png(url=str(svg), write_to=str(png), output_width=W)
 
