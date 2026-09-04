@@ -169,12 +169,12 @@
     <ns0:path d="M 473.40,455.43 L 563.59,457.24 L 607.58,459.36 L 638.72,462.74 L 676.25,467.66 L 706.76,472.86 L 739.01,479.44 L 766.29,487.12 L 804.02,498.72 L 839.10,511.15 L 867.19,523.47 L 890.47,533.37 L 899.04,537.01 L 948.20,563.30 L 1097.31,642.30" fill="none" stroke="#7c2d12" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="9" />
     <ns0:path d="M 1094.90,647.39 L 946.10,567.34 L 897.22,541.63 L 888.03,537.61 L 865.66,527.81 L 837.57,516.06 L 800.76,502.44 L 765.06,491.74 L 737.19,484.35 L 706.11,477.20 L 676.17,472.89 L 639.80,467.98 L 606.92,464.86 L 562.93,463.03 L 472.57,461.05" fill="none" stroke="#7c2d12" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0" stroke-width="9" />
   </ns0:g>
-  <ns0:text fill="#166534" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="24" font-weight="600" text-anchor="start" x="837.4230257973098" y="550.6777109957113">
-    <ns0:tspan dy="0" x="837.4230257973098">県道45号</ns0:tspan>
-    <ns0:tspan dy="30.0" x="837.4230257973098">線路下</ns0:tspan>
+  <ns0:text fill="#166534" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="24" font-weight="600" text-anchor="start" x="839.4230257973098" y="558.6777109957113">
+    <ns0:tspan dy="0" x="839.4230257973098">県道45号</ns0:tspan>
+    <ns0:tspan dy="30.0" x="839.4230257973098">線路下</ns0:tspan>
   </ns0:text>
-  <ns0:text fill="#7c2d12" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="23" font-weight="600" text-anchor="end" x="773.525770036506" y="487.2593754946813">
-    <ns0:tspan dy="0" x="773.525770036506">相鉄線（上）</ns0:tspan>
+  <ns0:text fill="#7c2d12" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="23" font-weight="600" text-anchor="end" x="728.525770036506" y="441.2593754946813">
+    <ns0:tspan dy="0" x="728.525770036506">相鉄線（上）</ns0:tspan>
   </ns0:text>
   <ns0:text fill="#ea580c" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="23" font-weight="600" text-anchor="start" x="600.5358415214811" y="309.1810009679198">
     <ns0:tspan dy="0" x="600.5358415214811">三ツ境下草柳線</ns0:tspan>
