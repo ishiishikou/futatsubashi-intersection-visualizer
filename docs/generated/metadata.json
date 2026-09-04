@@ -1,0 +1,278 @@
+{
+  "center_query": "神奈川県立三ツ境支援学校, 横浜市, 神奈川県, 日本",
+  "center_latlon": [
+    35.4723584,
+    139.4946542
+  ],
+  "distance_m": 650,
+  "counts": {
+    "road_features": 688,
+    "rail_features": 2,
+    "route45_features": 23,
+    "underpass_features": 3,
+    "surface_connector_features": 1
+  },
+  "route45_tags": [
+    {
+      "osm_index": "('way', 84162315)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 84162323)",
+      "name": "中原街道",
+      "ref": NaN,
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "unclassified"
+    },
+    {
+      "osm_index": "('way', 84162334)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": "yes",
+      "layer": "-1",
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 124814740)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 124814741)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": "yes",
+      "layer": "-1",
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 124814742)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": "yes",
+      "layer": "-1",
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 124814743)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 218107708)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 218107712)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 238305280)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 238305282)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 238305292)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 280966101)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 280966111)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 310817592)",
+      "name": NaN,
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary_link"
+    },
+    {
+      "osm_index": "('way', 810760439)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 810760440)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 947146024)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 947146026)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 1387762388)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 1387762389)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 1387762390)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 1387762391)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "primary"
+    }
+  ],
+  "underpass_tags": [
+    {
+      "osm_index": "('way', 84162334)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": "yes",
+      "layer": "-1",
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 124814741)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": "yes",
+      "layer": "-1",
+      "bridge": NaN,
+      "highway": "primary"
+    },
+    {
+      "osm_index": "('way', 124814742)",
+      "name": "中原街道",
+      "ref": "45",
+      "tunnel": "yes",
+      "layer": "-1",
+      "bridge": NaN,
+      "highway": "primary"
+    }
+  ],
+  "rail_tags": [
+    {
+      "osm_index": "('way', 161192972)",
+      "name": "相模鉄道本線",
+      "layer": "1",
+      "railway": "rail"
+    },
+    {
+      "osm_index": "('way', 854966477)",
+      "name": "相模鉄道本線",
+      "layer": "1",
+      "railway": "rail"
+    }
+  ],
+  "surface_connector_tags": [
+    {
+      "osm_index": "('way', 1379971511)",
+      "name": "三ツ境下草柳線",
+      "ref": NaN,
+      "tunnel": NaN,
+      "layer": NaN,
+      "bridge": NaN,
+      "highway": "construction"
+    }
+  ]
+}

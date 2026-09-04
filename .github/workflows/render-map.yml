@@ -1,0 +1,146 @@
+name: Render OSM structure
+
+on:
+  push:
+    branches:
+      - main
+      - 'feat/**'
+    paths:
+      - config.json
+      - requirements.txt
+      - 'scripts/**'
+      - '.github/workflows/render-map.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install native rendering dependencies and Japanese fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libcairo2 fonts-noto-cjk >/dev/null
+          fc-cache -f
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build SVG and PNG previews from public data
+        id: build
+        continue-on-error: true
+        run: |
+          mkdir -p docs/generated
+          set +e
+          {
+            python scripts/build_map.py
+            map_code=$?
+            if [ "$map_code" -eq 0 ]; then
+              python scripts/build_focus.py
+              focus_code=$?
+            else
+              focus_code=99
+            fi
+            if [ "$map_code" -eq 0 ] && [ "$focus_code" -eq 0 ]; then
+              python scripts/build_signal_phases.py
+              signal_code=$?
+            else
+              signal_code=99
+            fi
+            if [ "$map_code" -eq 0 ] && [ "$focus_code" -eq 0 ] && [ "$signal_code" -eq 0 ]; then
+              python scripts/build_official_2026.py
+              official_code=$?
+            else
+              official_code=99
+            fi
+            if [ "$map_code" -ne 0 ]; then
+              exit "$map_code"
+            fi
+            if [ "$focus_code" -ne 0 ]; then
+              exit "$focus_code"
+            fi
+            if [ "$signal_code" -ne 0 ]; then
+              exit "$signal_code"
+            fi
+            exit "$official_code"
+          } > docs/generated/build.log 2>&1
+          code=$?
+          cat docs/generated/build.log
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Make successful SVG output reviewable
+        if: steps.build.outputs.exit_code == '0'
+        run: |
+          python scripts/prettify_svg.py \
+            docs/generated/01-current-osm.svg \
+            docs/generated/02-grade-separation.svg \
+            docs/generated/03-local-focus.svg \
+            docs/generated/04-layer-exploded.svg \
+            docs/generated/05-signal-phases-2018.svg \
+            docs/generated/06-official-2026-schematic.svg
+          rm -f docs/generated/build.log
+
+      - name: Inspect SVG structure
+        if: steps.build.outputs.exit_code == '0'
+        run: |
+          python scripts/inspect_svg.py \
+            docs/generated/01-current-osm.svg \
+            docs/generated/02-grade-separation.svg \
+            docs/generated/03-local-focus.svg \
+            docs/generated/04-layer-exploded.svg \
+            docs/generated/05-signal-phases-2018.svg \
+            docs/generated/06-official-2026-schematic.svg
+
+      - name: Verify output files
+        if: steps.build.outputs.exit_code == '0'
+        run: |
+          test -s docs/generated/01-current-osm.svg
+          test -s docs/generated/01-current-osm.png
+          test -s docs/generated/02-grade-separation.svg
+          test -s docs/generated/02-grade-separation.png
+          test -s docs/generated/03-local-focus.svg
+          test -s docs/generated/03-local-focus.png
+          test -s docs/generated/04-layer-exploded.svg
+          test -s docs/generated/04-layer-exploded.png
+          test -s docs/generated/05-signal-phases-2018.svg
+          test -s docs/generated/05-signal-phases-2018.png
+          test -s docs/generated/06-official-2026-schematic.svg
+          test -s docs/generated/06-official-2026-schematic.png
+          test -s docs/generated/metadata.json
+          test -s docs/generated/index.html
+
+      - name: Upload rendered review artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rendered-map-review
+          path: docs/generated/
+          retention-days: 7
+
+      - name: Commit deterministic previews or diagnostic log
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A docs/generated/
+          git diff --cached --quiet && exit 0
+          git commit -m "Render current OSM structure [skip ci]"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+
+      - name: Fail if renderer failed
+        if: steps.build.outputs.exit_code != '0'
+        run: exit 1
