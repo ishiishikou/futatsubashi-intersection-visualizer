@@ -1,27 +1,30 @@
 # Sources
 
-このディレクトリには第三者資料そのものを保存せず、参照先と利用目的だけを記録します。
+このディレクトリには第三者資料そのものを保存せず、参照先・権威・用途・優先度を記録します。
 
-## OpenStreetMap
+## 参照元の正式な登録先
 
-- https://www.openstreetmap.org/
-- 用途: 現況の道路、鉄道、トンネル、橋、layer 等の地理・立体交差タグの取得
-- Attribution: © OpenStreetMap contributors
-- License: Open Database License (ODbL)
+- [source-register.md](source-register.md)
+  - 今回の工事・交差点構造を検討する際に参照すべき一次資料、地図資料、過去資料、交通信号・道路設計の方法論資料を登録しています。
+  - 新しい公式資料を使う前に、まずこの一覧へ追加します。
 
-## 横浜市 — 二ツ橋北部三ツ境下草柳線等沿道地区
+## 調査手順
 
-- 事業・工事情報:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.html
-- 過去の「第1期地区まちづくりニュース」一覧:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.html
-- 2018年の信号パターン検討案を含む資料:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.files/0008_20190313.pdf
-- 2026年8月の工事説明会資料・完成イメージ:
-  - https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0039_20260807.pdf
+- [../docs/investigation-plan.md](../docs/investigation-plan.md)
+  - 道路技術者の進め方にならい、現況図確定 → 高さ分離 → 道路ID付与 → 公式計画の位置合わせ → 方向別交通流 → 信号制御、の順に検討します。
 
 ## 運用ルール
 
-- 上記 PDF や地図サービスのスクリーンショットはこのリポジトリへコミットしません。
-- 計画道路をSVGへ反映する場合は、どの公開資料のどの内容を根拠にしたかを別ファイルへ明記します。
-- 公開資料で確認できない車線・信号灯器位置などは推定として扱います。
+- 横浜市PDF、国土地理院資料等の原本画像を恒久的にリポジトリへ再掲しません。
+- Google Mapsのスクリーンショットやそのトレースをコミットしません。
+- OpenStreetMapは補助・照合用とし、数十mスケールの現況形状は横浜市道路台帳/Rマッピー等を優先します。
+- SVGへ反映する計画道路・交通島・横断歩道・信号関連情報には、根拠資料またはprovenance IDを付けます。
+- 公開資料で確認できない車線、信号灯器位置、信号現示、信号秒数等は推定で埋めず `Unknown` とします。
+- 情報は `Observed` / `Official plan` / `Derived` / `Interpretation` / `Unknown` に分けて扱います。
+
+## OpenStreetMap attribution
+
+OpenStreetMap由来の地理データを成果物に使用する場合は、必要な帰属表示を行います。
+
+- © OpenStreetMap contributors
+- Open Database License (ODbL)
