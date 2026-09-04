@@ -125,7 +125,8 @@ jobs:
           git add -A docs/generated/
           git diff --cached --quiet && exit 0
           git commit -m "Render current OSM structure [skip ci]"
-          git push
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
 
       - name: Fail if renderer failed
         if: steps.build.outputs.exit_code != '0'
