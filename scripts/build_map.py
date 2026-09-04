@@ -180,7 +180,6 @@ def draw_gdf(
                 "stroke_opacity": opacity,
                 "stroke_linecap": linecap,
                 "stroke_linejoin": "round",
-                "vector_effect": "non-scaling-stroke",
             }
             if dash:
                 attrs["stroke_dasharray"] = dash
