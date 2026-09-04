@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" baseProfile="full" height="1000" version="1.1" viewBox="0 0 1600 1000" width="1600">
+  <ns0:defs />
+  <ns0:rect fill="#f8fafc" height="1000" width="1600" x="0" y="0" />
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="36" font-weight="700" text-anchor="start" x="70" y="58">
+    <ns0:tspan dy="0" x="70">交差点周辺だけに拡大：現況の上下関係</ns0:tspan>
+  </ns0:text>
+  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="21" font-weight="500" text-anchor="start" x="70" y="105">
+    <ns0:tspan dy="0" x="70">広域図では小さすぎたため、県道45号の線路下区間を中心に約200m圏だけを表示</ns0:tspan>
+  </ns0:text>
+  <ns0:g id="local-focus">
+    <ns0:path d="M 642.56,676.66 L 631.62,694.63 L 622.92,704.43 L 620.00,708.50 L 618.59,712.59 L 616.40,721.53 L 614.98,730.12 L 614.29,736.53 L 610.64,765.42 L 609.47,769.05" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 534.34,695.11 L 536.81,694.13 L 543.79,693.11 L 586.23,689.84 L 593.64,688.96 L 599.76,687.20 L 605.75,683.58 L 652.00,641.73 L 685.26,620.01" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 1092.56,412.44 L 1085.36,422.38 L 1081.40,427.33 L 1075.67,437.49 L 1058.69,493.21 L 1047.56,536.66 L 1045.53,546.70 L 1042.37,582.78 L 1038.11,596.73 L 1004.05,660.57 L 996.66,673.40 L 985.94,715.34 L 959.89,788.44" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 1053.28,288.65 L 1053.28,288.65 L 1026.15,317.49 L 903.54,436.38 L 827.11,507.06 L 793.77,537.88 L 778.65,551.85" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 589.72,245.75 L 602.25,291.34 L 617.76,345.68 L 627.93,376.81 L 633.73,398.79 L 646.16,451.36 L 659.03,502.70 L 665.07,527.77" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 707.44,183.40 L 709.26,195.93 L 718.30,226.07 L 724.21,250.37 L 736.20,303.85 L 744.88,367.36 L 756.47,421.83 L 768.02,473.86 L 770.13,484.79 L 769.72,518.26 L 770.40,528.40 L 770.91,541.72" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 1120.19,485.18 L 1129.10,481.70" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 813.38,829.34 L 839.01,796.23 L 857.35,769.35 L 870.15,748.39 L 917.03,667.55 L 938.99,639.30 L 950.94,621.38 L 956.17,602.47 L 961.79,571.96 L 978.61,543.16 L 1002.18,477.91 L 1058.69,493.21" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 870.15,748.39 L 813.47,697.79 L 726.81,611.64 L 719.70,604.58" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 679.48,806.94 L 672.83,796.65 L 669.66,791.68 L 627.60,726.16 L 618.59,712.59" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 729.89,822.22 L 764.23,793.71 L 737.21,764.05 L 688.04,810.01" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 839.01,796.23 L 799.80,764.42 L 775.84,737.74 L 765.25,717.32 L 784.33,697.87 L 770.74,683.69 L 712.98,623.69 L 706.13,617.16" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 646.16,451.36 L 745.41,424.79 L 756.47,421.83" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 744.88,367.36 L 736.80,369.64 L 633.73,398.79" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 659.03,502.70 L 758.05,476.50 L 768.02,473.86" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 679.94,260.90 L 602.25,291.34" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 617.76,345.68 L 626.35,342.66 L 705.53,314.68 L 726.72,307.20 L 736.20,303.85" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 705.53,314.68 L 701.95,307.16 L 679.94,260.90 L 655.99,210.59 L 653.24,204.81" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 577.64,417.63 L 536.89,301.46" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 648.30,207.14 L 629.91,217.67" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 473.39,455.49 L 475.32,454.28 L 528.92,434.70 L 577.64,417.63 L 603.37,408.96 L 621.93,384.67 L 627.93,376.81" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 482.62,589.45 L 481.10,567.93 L 479.87,550.66 L 470.85,482.74" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 528.92,434.70 L 501.71,359.79" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 1004.05,660.57 L 1045.37,663.29 L 1056.33,665.12" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 565.40,731.96 L 685.26,620.01" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 642.56,676.66 L 575.74,739.95 L 574.88,740.80" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 685.26,620.01 L 756.23,555.14 L 763.91,548.12 L 770.91,541.72" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 839.31,827.38 L 855.58,796.68 L 900.76,814.01" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 1045.37,663.29 L 1050.90,629.18" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 1056.33,665.12 L 1080.57,670.04" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 1082.16,670.36 L 1080.57,670.04" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 827.11,507.06 L 831.70,512.27 L 846.69,529.29 L 823.53,548.53" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 631.62,694.63 L 635.97,698.87 L 646.88,710.63 L 663.68,728.75" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 648.95,742.18 L 663.68,728.75 L 692.63,702.37" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 634.81,722.13 L 646.88,710.63" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 1128.55,529.42 L 1126.78,518.44 L 1120.19,485.18 L 1110.97,454.82 L 1092.56,412.44 L 1085.91,364.70" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 778.65,551.85 L 768.53,560.79 L 719.70,604.58 L 706.13,617.16 L 642.56,676.66" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 770.91,541.72 L 778.65,551.85" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 971.01,353.35 L 1003.83,321.51 L 1039.07,283.15 L 1043.71,278.09" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 669.66,791.68 L 666.08,794.94 L 661.52,799.11" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 672.83,796.65 L 709.39,761.36" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 770.74,683.69 L 745.23,707.41" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 614.29,736.53 L 611.33,740.73 L 607.63,744.93 L 601.40,750.23 L 596.08,752.94 L 589.64,754.17" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 1055.84,300.55 L 1051.14,302.07 L 1047.27,304.61 L 862.40,485.00 L 831.70,512.27 L 771.55,567.85" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 1055.31,297.94 L 1053.28,288.65 L 1053.28,288.64" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 1061.73,299.62 L 1059.65,301.91 L 1055.84,300.55 L 1055.31,297.94" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 1061.74,299.61 L 1061.73,299.62" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 761.15,538.97 L 764.42,533.16 L 770.40,528.40 L 775.87,524.04 L 820.34,485.84 L 1034.96,268.44" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 761.15,538.97 L 761.96,541.77" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 770.83,566.07 L 771.55,567.85" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 771.55,567.85 L 726.81,611.64 L 712.98,623.69 L 677.92,656.26 L 639.30,695.94 L 635.97,698.87" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 761.96,541.77 L 763.91,548.12 L 768.53,560.79 L 770.83,566.07" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 529.82,689.01 L 533.40,687.91 L 546.13,686.43 L 592.42,682.95 L 600.12,680.00 L 605.88,676.09 L 644.72,640.51 L 678.11,614.05 L 761.15,538.97" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 770.91,541.72 L 905.99,416.44 L 971.01,353.35" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 1085.91,364.70 L 1085.19,359.94 L 1073.65,315.66" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 477.21,567.85 L 481.10,567.93" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9" stroke-width="5" />
+    <ns0:path d="M 1053.28,288.65 L 1053.28,288.65 L 1026.15,317.49 L 903.54,436.38 L 827.11,507.06 L 793.77,537.88 L 778.65,551.85" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.96" stroke-width="13" />
+    <ns0:path d="M 565.40,731.96 L 685.26,620.01" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.96" stroke-width="13" />
+    <ns0:path d="M 642.56,676.66 L 575.74,739.95 L 574.88,740.80" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.96" stroke-width="13" />
+    <ns0:path d="M 685.26,620.01 L 756.23,555.14 L 763.91,548.12 L 770.91,541.72" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.96" stroke-width="13" />
+    <ns0:path d="M 778.65,551.85 L 768.53,560.79 L 719.70,604.58 L 706.13,617.16 L 642.56,676.66" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.96" stroke-width="13" />
+    <ns0:path d="M 971.01,353.35 L 1003.83,321.51 L 1039.07,283.15 L 1043.71,278.09" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.96" stroke-width="13" />
+    <ns0:path d="M 770.91,541.72 L 905.99,416.44 L 971.01,353.35" fill="none" stroke="#15803d" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.96" stroke-width="13" />
+  </ns0:g>
+  <ns0:rect fill="#ffffff" height="158" rx="16" ry="16" stroke="#cbd5e1" stroke-width="2" width="690" x="70" y="805" />
+  <ns0:line stroke="#94a3b8" stroke-linecap="round" stroke-width="8" x1="92" x2="168" y1="834" y2="834" />
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="19" font-weight="500" text-anchor="start" x="188" y="841">
+    <ns0:tspan dy="0" x="188">地上道路（OSM layer 0相当）</ns0:tspan>
+  </ns0:text>
+  <ns0:line stroke="#166534" stroke-dasharray="18,12" stroke-linecap="round" stroke-width="8" x1="92" x2="168" y1="865" y2="865" />
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="19" font-weight="500" text-anchor="start" x="188" y="872">
+    <ns0:tspan dy="0" x="188">県道45号の線路下区間（tunnel=yes / layer=-1）</ns0:tspan>
+  </ns0:text>
+  <ns0:line stroke="#7c2d12" stroke-linecap="round" stroke-width="8" x1="92" x2="168" y1="896" y2="896" />
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="19" font-weight="500" text-anchor="start" x="188" y="903">
+    <ns0:tspan dy="0" x="188">相鉄線（layer=1）</ns0:tspan>
+  </ns0:text>
+  <ns0:line stroke="#ea580c" stroke-linecap="round" stroke-width="8" x1="92" x2="168" y1="927" y2="927" />
+  <ns0:text fill="#0f172a" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="19" font-weight="500" text-anchor="start" x="188" y="934">
+    <ns0:tspan dy="0" x="188">三ツ境下草柳線（OSM上 highway=construction）</ns0:tspan>
+  </ns0:text>
+  <ns0:text fill="#475569" font-family="'Noto Sans CJK JP','Noto Sans JP',sans-serif" font-size="18" font-weight="500" text-anchor="end" x="1530" y="968">
+    <ns0:tspan dy="0" x="1530">© OpenStreetMap contributors (ODbL)</ns0:tspan>
+  </ns0:text>
+</ns0:svg>
