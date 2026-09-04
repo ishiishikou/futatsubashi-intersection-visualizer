@@ -59,13 +59,22 @@ jobs:
             else
               signal_code=99
             fi
+            if [ "$map_code" -eq 0 ] && [ "$focus_code" -eq 0 ] && [ "$signal_code" -eq 0 ]; then
+              python scripts/build_official_2026.py
+              official_code=$?
+            else
+              official_code=99
+            fi
             if [ "$map_code" -ne 0 ]; then
               exit "$map_code"
             fi
             if [ "$focus_code" -ne 0 ]; then
               exit "$focus_code"
             fi
-            exit "$signal_code"
+            if [ "$signal_code" -ne 0 ]; then
+              exit "$signal_code"
+            fi
+            exit "$official_code"
           } > docs/generated/build.log 2>&1
           code=$?
           cat docs/generated/build.log
@@ -80,7 +89,8 @@ jobs:
             docs/generated/02-grade-separation.svg \
             docs/generated/03-local-focus.svg \
             docs/generated/04-layer-exploded.svg \
-            docs/generated/05-signal-phases-2018.svg
+            docs/generated/05-signal-phases-2018.svg \
+            docs/generated/06-official-2026-schematic.svg
           rm -f docs/generated/build.log
 
       - name: Inspect SVG structure
@@ -91,7 +101,8 @@ jobs:
             docs/generated/02-grade-separation.svg \
             docs/generated/03-local-focus.svg \
             docs/generated/04-layer-exploded.svg \
-            docs/generated/05-signal-phases-2018.svg
+            docs/generated/05-signal-phases-2018.svg \
+            docs/generated/06-official-2026-schematic.svg
 
       - name: Verify output files
         if: steps.build.outputs.exit_code == '0'
@@ -106,6 +117,8 @@ jobs:
           test -s docs/generated/04-layer-exploded.png
           test -s docs/generated/05-signal-phases-2018.svg
           test -s docs/generated/05-signal-phases-2018.png
+          test -s docs/generated/06-official-2026-schematic.svg
+          test -s docs/generated/06-official-2026-schematic.png
           test -s docs/generated/metadata.json
           test -s docs/generated/index.html
 
