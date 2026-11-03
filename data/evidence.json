@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_date": "2026-11-03",
+  "reviewed_date": "2026-11-04",
   "baseline_commit": "381a65d8fed24609166d441a1ceef368b77913bf",
   "sources": [
     {
@@ -132,7 +132,7 @@
       "title": "よこはまのみち利用許諾入口",
       "url": "https://wwwm.city.yokohama.lg.jp/yokohama/Agreement?IsPost=False&MapId=17&RequestPage=%2Fyokohama%2FPositionSelect%3Fmid%3D17",
       "accessed_date": "2026-11-03",
-      "status": "terms-only-map-not-read",
+      "status": "terms-accepted-2026-11-04; plan-layer-selected",
       "document_date": null
     },
     {
@@ -172,6 +172,22 @@
       "title": "OSM copyright and licence",
       "url": "https://www.openstreetmap.org/copyright",
       "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": null
+    },
+    {
+      "id": "E10",
+      "title": "対象交差点の道路台帳平面図（UI閲覧）",
+      "url": "https://wwwm.city.yokohama.lg.jp/yokohama/Map?mid=67&mps=500&mtp=ykmichi&mpx=139.4964&mpy=35.47055&gprj=3",
+      "accessed_date": "2026-11-04",
+      "status": "visually-read; survey-date-unverified; no-geometry-published",
+      "document_date": null
+    },
+    {
+      "id": "E11",
+      "title": "よこはまのみち情報提供図の用語説明",
+      "url": "https://wwwm.city.yokohama.lg.jp/yokohama/yokohama/Content/pages/links/5_michi/yougo.html",
+      "accessed_date": "2026-11-04",
       "status": "read",
       "document_date": null
     }
@@ -374,6 +390,32 @@
         }
       ],
       "limits": "現地に道路がないという意味ではない。工事中の最新現況を保証しない。"
+    },
+    {
+      "id": "C-15",
+      "text": "対象地点の平面図に地上道路の曲がり、歩行者専用道路の表示、階段、鉄道の表示を確認。",
+      "classification": "Observed",
+      "scope": "road-ledger visual inspection, survey date unknown",
+      "references": [
+        {
+          "source": "E10",
+          "locator": "mid=67, plan layer 200, two view centres in docs/road-ledger-review.md"
+        }
+      ],
+      "limits": "現行の施工済み状態や規制、座標・幅員の精度を確定しない。"
+    },
+    {
+      "id": "C-16",
+      "text": "市は台帳作成後の現況変更の可能性と、画面から現況幅員を確認できないことを説明。",
+      "classification": "Observed",
+      "scope": "official map interpretation limits",
+      "references": [
+        {
+          "source": "E11",
+          "locator": "sections 2,3,6,7"
+        }
+      ],
+      "limits": "表示縮尺1/500だけで測量精度を与えない。"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Source register
 
-Last reviewed: 2026-11-03 (independent audit; see dated status below)
+Last reviewed: 2026-11-04 (independent audit; see dated status below)
 
 Authoritative register of sources to check before making claims about the Futatsubashi / Mitsukyo No.1 intersection and the first-phase land-readjustment works.
 
@@ -279,7 +279,7 @@ This section supersedes older “current” labels above. A listed source is not
 | E3 | Smartphone update page says 2026-10-15 | Service update date ≠ survey date at this site |
 | E4 | Planning lines 2026-04-03; road-ledger layer creation 2025-10-03 | R-Mappy layers are not necessarily as fresh as よこはまのみち |
 | E2 | Desktop selector blank; one reload gives `MapWithCtModel` error; smartphone search also empty | Not classified as a bot block |
-| E8 | Direct road-ledger information entrance reached; “同意する” not clicked | Explicit terms-acceptance confirmation required; map contents not read |
+| E8/E10 | Terms accepted 2026-11-04; target plan layer mid=67 visually read | Local survey/revision date and precise base not established |
 | F4 | Fresh bounded OSM API response obtained | Snapshot corroboration only; source edit timestamps are not site survey dates |
 | F5 | GSI standard tiles inspected transiently | New road absent in this tile sample; cannot certify 2026 construction state |
 
@@ -295,3 +295,13 @@ This section supersedes older “current” labels above. A listed source is not
 | F7 | [OSM licence](https://www.openstreetmap.org/copyright) | © OpenStreetMap contributors / ODbL |
 
 No official/GSI imagery or traced official geometry is committed in this audit. No permission to reproduce road-ledger linework is assumed from viewing permission. E8's map type is boundary-survey information within よこはまのみち; selecting the road-ledger plan layer is still required after access.
+
+
+## 2026-11-04 follow-up (supersedes terms-wait status)
+
+E8 terms accepted under user approval. E10 target road-ledger plan visually inspected; no map imagery or traced geometry published. Plan/correction/separate/separate-correction views checked within stated viewports. Blank correction views do not prove source absence. See [ledger review](../docs/road-ledger-review.md).
+
+- E10: https://wwwm.city.yokohama.lg.jp/yokohama/Map?mid=67&mps=500&mtp=ykmichi&mpx=139.4964&mpy=35.47055&gprj=3
+- E11: https://wwwm.city.yokohama.lg.jp/yokohama/yokohama/Content/pages/links/5_michi/yougo.html — sections 2,3,6,7 distinguish survey-time conditions, boundaries, separate drawings and screen-measurement limitations.
+
+Viewing is no longer the blocker. Gate 1 still lacks a dated, precise existing-condition base. Latest detailed project/as-built information and publication terms need confirmation. A concrete, unsent [source request](../docs/source-request.md) is prepared.

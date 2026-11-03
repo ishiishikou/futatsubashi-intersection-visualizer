@@ -14,8 +14,10 @@
       "id": 1,
       "title": "現況基図",
       "status": "blocked",
-      "evidence": [],
-      "reason": "道路台帳閲覧の利用規約同意待ち。対象図面未取得。"
+      "evidence": [
+        "docs/road-ledger-review.md"
+      ],
+      "reason": "道路台帳は閲覧済み。対象局所の測量・補正時点、精密座標基図、最新工事・接続部詳細図が未確認。"
     },
     {
       "id": 2,

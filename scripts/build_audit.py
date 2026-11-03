@@ -24,11 +24,11 @@ def main():
     if errors:raise ValueError(errors)
     OUT.mkdir(exist_ok=True)
     notice('evidence-status','精密復元は未完了：Gate 1で停止',[
-        '確認済み：資料の版・根拠14件・OSM補助データ23 way',
+        '道路台帳を閲覧済み／主張16件を根拠付きで記録',
         '旧図の問題：交通島・横断歩道配置・歩行者の斜め横断',
-        '停止理由：道路台帳の利用規約同意待ち／対象図面未閲覧',
+        '停止理由：局所の測量時点・精密基図・最新詳細図が未確認',
         '未確定：現況基図・位置合わせ・完成後の右左折・最終信号',
-        '調査 2026-11-03／再開 11-04　詳細：docs/independent-audit.md'
+        '調査 2026-11-03／台帳閲覧 11-04　詳細：docs/independent-audit.md'
     ],'partial')
     notice('05-signal-phases-2018','旧信号模式図を撤回しました',[
         '原資料にない斜め横断と、不整合のある車両矢印を削除。',
@@ -42,6 +42,6 @@ def main():
         '基準点・変換係数・残差は未計測。誤差ゼロではありません。',
         '詳細：docs/independent-audit.md／data/gates.json'
     ],'withdrawn')
-    (OUT/'index.html').write_text('''<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>二ツ橋1号交差点：検証状況</title><style>body{font-family:system-ui;margin:24px;max-width:1200px}img{width:100%;height:auto}p{line-height:1.7}</style><h1>精密復元は未完了</h1><p>道路台帳の対象図面は未閲覧です。以下は検証状況と旧図の撤回通知です。</p><p><a href="../independent-audit.md">調査記録</a> ／ <a href="../movement-review.md">動線・信号</a></p>'''+''.join(f'<p><a href="{n}.svg"><img src="{n}.png" alt="{label}"></a></p>' for n,label in [('evidence-status','検証状況'),('05-signal-phases-2018','信号図撤回'),('06-official-2026-schematic','完成図撤回')])+ '</html>')
+    (OUT/'index.html').write_text('''<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>二ツ橋1号交差点：検証状況</title><style>body{font-family:system-ui;margin:24px;max-width:1200px}img{width:100%;height:auto}p{line-height:1.7}</style><h1>精密復元は未完了</h1><p>道路台帳は閲覧済みですが、精密基図と最新詳細図は未確定です。以下は検証状況と旧図の撤回通知です。</p><p><a href="../independent-audit.md">調査記録</a> ／ <a href="../movement-review.md">動線・信号</a></p>'''+''.join(f'<p><a href="{n}.svg"><img src="{n}.png" alt="{label}"></a></p>' for n,label in [('evidence-status','検証状況'),('05-signal-phases-2018','信号図撤回'),('06-official-2026-schematic','完成図撤回')])+ '</html>')
 
 if __name__=='__main__':main()
