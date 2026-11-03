@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "reviewed_date": "2026-11-03",
+  "baseline_commit": "381a65d8fed24609166d441a1ceef368b77913bf",
+  "sources": [
+    {
+      "id": "A1",
+      "title": "第1期事業ページ",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.html",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": "2026-09-29"
+    },
+    {
+      "id": "A2",
+      "title": "事業概要",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/gaiyou.html",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": "2026-07-30"
+    },
+    {
+      "id": "A3",
+      "title": "事業計画書",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/gaiyou.files/0014_20260317.pdf",
+      "accessed_date": "2026-11-03",
+      "status": "downloaded-partly-inspected",
+      "document_date": null,
+      "sha256": "b435267639abbf589c9d9e4d76e6d120a82e05224d259220344f8a1e09f36ff4",
+      "page_count": 20
+    },
+    {
+      "id": "A4",
+      "title": "事業計画図",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/gaiyou.files/0016_20260730.pdf",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": "2024-10",
+      "sha256": "89098c2f50c362267dfc1544e759c784420c6fa63a0fbffa4a6e7ff7da72297d",
+      "page_count": 1
+    },
+    {
+      "id": "A6",
+      "title": "第7回変更縦覧終了ページ",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/ikkichikujuuran.html",
+      "accessed_date": "2026-11-03",
+      "status": "landing-only-document-unavailable",
+      "document_date": "2026-09-29"
+    },
+    {
+      "id": "B1",
+      "title": "2026年8月工事説明会",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0039_20260807.pdf",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": "2026-08-06/08",
+      "sha256": "36489558f5bce0f98bc5a90e9d680b43d9aff2680c7a33028e21e953a6da8f8f",
+      "page_count": 53
+    },
+    {
+      "id": "B2",
+      "title": "2026年8月説明会Q&A",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0040_20260818.pdf",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": "2026-08-06/08",
+      "sha256": "293a46315212df2266f320cf8e356ffcbfcef661c8524e95014e9b7dde2a625f",
+      "page_count": 1
+    },
+    {
+      "id": "C1",
+      "title": "まちづくりニュース一覧",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.html",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": "2026-04-03"
+    },
+    {
+      "id": "C2",
+      "title": "ニュース第6号",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.files/0007_20190313.pdf",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": "2017-12-06",
+      "sha256": "6492eb038e417781429cda70f76a334a7d4ff66adef7bb120902a5e14cd48194",
+      "page_count": 5
+    },
+    {
+      "id": "C3",
+      "title": "ニュース第7号",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.files/0008_20190313.pdf",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": "2018-05-18",
+      "sha256": "e22951d3918ec262e0bc1ccf55b29a976851b0c8be4377ba73d5874e8bcf4b6f",
+      "page_count": 6
+    },
+    {
+      "id": "C4",
+      "title": "ニュース第24号",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/news.files/0062_20260319.pdf",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": "2026-03-23"
+    },
+    {
+      "id": "E1",
+      "title": "道路台帳閲覧の案内",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/doro/tetsuzuki/daichosys.html",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": null
+    },
+    {
+      "id": "E3",
+      "title": "よこはまのみち更新日",
+      "url": "https://wwwm.city.yokohama.lg.jp/yokohama-sp/yokohama-sp/Content/pages/up_date/5_michi/koushin.html",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": "2026-10-15"
+    },
+    {
+      "id": "E4",
+      "title": "Rマッピー更新日・座標系",
+      "url": "https://wwwm.city.yokohama.lg.jp/yokohama/yokohama/Content/pages/up_date/12_rmappi/koushin.html",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": null
+    },
+    {
+      "id": "E8",
+      "title": "よこはまのみち利用許諾入口",
+      "url": "https://wwwm.city.yokohama.lg.jp/yokohama/Agreement?IsPost=False&MapId=17&RequestPage=%2Fyokohama%2FPositionSelect%3Fmid%3D17",
+      "accessed_date": "2026-11-03",
+      "status": "terms-only-map-not-read",
+      "document_date": null
+    },
+    {
+      "id": "E9",
+      "title": "行政地図利用条件",
+      "url": "https://wwwm.city.yokohama.lg.jp/yokohama/yokohama/Content/pages/links/top/joken.html",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": null
+    },
+    {
+      "id": "F4",
+      "title": "OSM bounded API extract",
+      "url": "https://api.openstreetmap.org/api/0.6/map.json?bbox=139.491,35.469,139.499,35.475",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": null
+    },
+    {
+      "id": "F5",
+      "title": "地理院標準地図タイル",
+      "url": "https://maps.gsi.go.jp/development/ichiran.html",
+      "accessed_date": "2026-11-03",
+      "status": "transient-visual-inspection",
+      "document_date": null
+    },
+    {
+      "id": "F6",
+      "title": "OSM layer definition",
+      "url": "https://wiki.openstreetmap.org/wiki/Key:layer",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": null
+    },
+    {
+      "id": "F7",
+      "title": "OSM copyright and licence",
+      "url": "https://www.openstreetmap.org/copyright",
+      "accessed_date": "2026-11-03",
+      "status": "read",
+      "document_date": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "C-01",
+      "text": "駅側の既存道路と新設道路を接続するため、地上交差点を改良する。",
+      "classification": "Official plan",
+      "scope": "2026-08 plan",
+      "references": [
+        {
+          "source": "B1",
+          "locator": "PDF p.21 / printed p.20"
+        }
+      ],
+      "limits": "平面位置・線形の採用はGate 4待ち。"
+    },
+    {
+      "id": "C-02",
+      "text": "完成イメージに交通島、横断歩道、歩行者信号が描かれている。",
+      "classification": "Official plan",
+      "scope": "2026-08 illustration",
+      "references": [
+        {
+          "source": "B1",
+          "locator": "PDF pp.21,41 / printed pp.20,40"
+        }
+      ],
+      "limits": "図記号は設置台数・灯器座標の確定資料ではない。"
+    },
+    {
+      "id": "C-03",
+      "text": "歩行者図は北側の横断経路と道路開通時の西側横断歩道を別工程として扱う。",
+      "classification": "Official plan",
+      "scope": "2026-08 scheduled stages",
+      "references": [
+        {
+          "source": "B1",
+          "locator": "PDF pp.38–41 / printed pp.37–40"
+        }
+      ],
+      "limits": "9月中旬等の予定を11月3日の実施済み状況に読み替えない。"
+    },
+    {
+      "id": "C-04",
+      "text": "地下道出入口の一時封鎖と迂回を別途説明している。",
+      "classification": "Official plan",
+      "scope": "2026-08 scheduled stages",
+      "references": [
+        {
+          "source": "B1",
+          "locator": "PDF p.40 / printed p.39"
+        }
+      ],
+      "limits": "車道アンダーパスと歩行者地下通路を混同しない。現在の開閉状態は未確認。"
+    },
+    {
+      "id": "C-05",
+      "text": "大型標識位置図は発注段階の図で、区画線等は最新と異なると注記されている。",
+      "classification": "Observed",
+      "scope": "document limitation",
+      "references": [
+        {
+          "source": "B1",
+          "locator": "PDF p.29 / printed p.28"
+        }
+      ],
+      "limits": "当該図の矢印から最終右左折規制を決めない。"
+    },
+    {
+      "id": "C-06",
+      "text": "自転車専用通行帯・矢羽根型路面表示の整備方針が示されている。",
+      "classification": "Official plan",
+      "scope": "project-wide cycling",
+      "references": [
+        {
+          "source": "B1",
+          "locator": "PDF p.34 / printed p.33"
+        },
+        {
+          "source": "B2",
+          "locator": "Q2"
+        }
+      ],
+      "limits": "交差点内の正確な自転車経路・規制は未確定。"
+    },
+    {
+      "id": "C-07",
+      "text": "2018年資料の5群は直進・左折、右折2方向、西側側道、東側側道、歩行者。",
+      "classification": "Official plan",
+      "scope": "historical-study-2018",
+      "references": [
+        {
+          "source": "C3",
+          "locator": "PDF p.3, bottom figure"
+        }
+      ],
+      "limits": "将来協議・実運用による変更を明記。2026年最終現示ではない。"
+    },
+    {
+      "id": "C-08",
+      "text": "取得したOSMには本線のtunnel=yes/layer=-1と鉄道のlayer=1がある。",
+      "classification": "Observed",
+      "scope": "OSM snapshot only",
+      "references": [
+        {
+          "source": "F4",
+          "locator": "ways 124814741,124814742,161192972,854966477"
+        },
+        {
+          "source": "F6",
+          "locator": "definition"
+        }
+      ],
+      "limits": "相対的な交差順序。鉄道＞全地上道路＞本線という一律の三層標高モデルは証明しない。"
+    },
+    {
+      "id": "C-09",
+      "text": "三ツ境下草柳線の公開事業計画の標準幅員は18m（4+10+4）。",
+      "classification": "Official plan",
+      "scope": "2024-10 plan published 2026-07",
+      "references": [
+        {
+          "source": "A4",
+          "locator": "PDF p.1"
+        }
+      ],
+      "limits": "交差点局部の実幅員、全線開通、最終区画線を意味しない。"
+    },
+    {
+      "id": "C-10",
+      "text": "公開中の計画図の内部改定年月は2024年10月。第7回変更資料は今回未取得。",
+      "classification": "Observed",
+      "scope": "document currency",
+      "references": [
+        {
+          "source": "A4",
+          "locator": "PDF p.1 bottom-right"
+        },
+        {
+          "source": "A6",
+          "locator": "current page"
+        }
+      ],
+      "limits": "2026というURL中の年月を設計改定年月としない。"
+    },
+    {
+      "id": "C-11",
+      "text": "現地の各流入方向の最終的な直進・右左折可否、信号現示・秒数は未確定。",
+      "classification": "Unknown",
+      "scope": "2026 final operation",
+      "references": [
+        {
+          "source": "B1",
+          "locator": "PDF pp.21,29"
+        },
+        {
+          "source": "C3",
+          "locator": "PDF p.3"
+        }
+      ],
+      "limits": "一次資料不足。全方向通行可とも禁止とも推定しない。"
+    },
+    {
+      "id": "C-12",
+      "text": "2026年資料では三ツ境下草柳線中間部の横断歩道は設置予定なしと回答。",
+      "classification": "Official plan",
+      "scope": "2026-08 Q&A",
+      "references": [
+        {
+          "source": "B2",
+          "locator": "Q4"
+        }
+      ],
+      "limits": "2017/2018年の中間部信号付き横断歩道検討を現行計画に移さない。"
+    },
+    {
+      "id": "C-13",
+      "text": "第24号では信号機・規制標識の設置を神奈川県警が実施すると記載。",
+      "classification": "Official plan",
+      "scope": "2026-03 work allocation",
+      "references": [
+        {
+          "source": "C4",
+          "locator": "PDF p.1"
+        }
+      ],
+      "limits": "最終現示表の取得を意味しない。"
+    },
+    {
+      "id": "C-14",
+      "text": "地理院タイルの当該サンプルには計画新設道路の線形が描かれていない。",
+      "classification": "Observed",
+      "scope": "GSI retrieved map sample",
+      "references": [
+        {
+          "source": "F5",
+          "locator": "std z18 x232649–232651 y103414–103416"
+        }
+      ],
+      "limits": "現地に道路がないという意味ではない。工事中の最新現況を保証しない。"
+    }
+  ]
+}
