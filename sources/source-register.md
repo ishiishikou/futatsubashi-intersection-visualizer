@@ -1,6 +1,6 @@
 # Source register
 
-Last reviewed: 2026-09-04
+Last reviewed: 2026-11-04 (independent audit; see dated status below)
 
 Authoritative register of sources to check before making claims about the Futatsubashi / Mitsukyo No.1 intersection and the first-phase land-readjustment works.
 
@@ -28,11 +28,11 @@ Use sources in this order unless a newer official document explicitly supersedes
 | A1 | First-phase project page | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.html | Current notices, construction briefings, project status. Check first because PDF links can change. |
 | A2 | First-phase project overview | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/gaiyou.html | Project area, public facilities, widths, links to project plan/document/brochure. |
 | A3 | Current project-plan document `事業計画書` | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/gaiyou.files/0014_20260317.pdf | Legal/project design information. If text extraction is garbled, inspect visually. |
-| A4 | Current `事業計画図` | Resolve from A2 | Primary planned road geometry. Do not rely on an assumed/stale direct PDF path. |
+| A4 | Public `事業計画図` | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/gaiyou.files/0016_20260730.pdf | PDF internal revision: October 2024, NOT a verified seventh-revision/final road-detail drawing. |
 | A5 | Current project brochure | Resolve from A2 | Supplementary cross-sections and project overview. |
 | A6 | First-phase project plan, 7th revision public-inspection page | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/ikkichikujuuran.html | Latest revision; check for changes that supersede earlier plan material. Updated 2026-08-31. |
 
-A6 announced public inspection for 2026-09-01 through 2026-09-14. If inspection documents later disappear, record that access has expired and use the newest project overview/current plan rather than silently relying on an archived guess.
+A6: inspection ended. On 2026-11-03 the page states the inspection period was September 1–14 and opinion period September 1–28; there is no document link in the current page. Seventh-revision contents and adoption status remain unverified. The A2/A4 publicly linked plan cannot silently substitute for them.
 
 ---
 
@@ -41,7 +41,7 @@ A6 announced public inspection for 2026-09-01 through 2026-09-14. If inspection 
 | ID | Source | URL / resolver | Use |
 |---|---|---|---|
 | B1 | Aug 2026 construction briefing (Aug 6/8) | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0039_20260807.pdf | Current construction state, No.1 intersection modification, completion illustration, crosswalk/signal work, opening information. **Explanatory illustration is not automatically survey-grade geometry.** |
-| B2 | Aug 2026 briefing Q&A / comments | Resolve from A1 | Resident questions and official explanations that may clarify traffic operation or construction sequence. |
+| B2 | Aug 2026 briefing Q&A / comments | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0040_20260818.pdf | Resident questions and official explanations that may clarify traffic operation or construction sequence. |
 | B3 | Jul 2025 construction briefing | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0023_20251009.pdf | Immediately preceding construction/design state; compare with 2026. |
 | B4 | Jan 2024 construction briefing | https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/jokyo/kukakuseiri/endouchiku/ikkichiku/5.files/0024_20251009.pdf | Intermediate construction state / sequencing. |
 | B5 | Dec 2022 construction briefing | Resolve from A1 | Earlier state; identify when road components were built. |
@@ -260,3 +260,48 @@ Whenever a new official Yokohama, Kanagawa Police, NPA or geospatial source is f
 3. update geometry provenance / investigation notes;
 4. preserve older sources when they explain design history;
 5. leave unresolved facts as `Unknown` rather than filling gaps by intuition.
+
+
+## Independent recheck — 2026-11-03
+
+This section supersedes older “current” labels above. A listed source is not necessarily acquired or accepted. Machine-readable records, exact page locators and locally verified PDF SHA-256 hashes: [evidence.json](../data/evidence.json). PDF page numbers are **1-based**; printed slide numbers in B1 are one lower.
+
+| Source | Recheck result | Limit |
+|---|---|---|
+| A1 | Landing page updated 2026-09-29; B1/B2 are the latest briefings linked there | This is not proof that no later unpublished plan exists |
+| A2/A4 | Overview updated 2026-07-30; linked plan internally says 2024-10 | Land-readjustment corridor/standard section, not final junction markings |
+| A6 | Inspection ended; document link absent on current page | Latest revision content not obtained |
+| B1 | 53 pages obtained and relevant pages visually inspected | pp.21,22,29,38–41,48 (printed 20,21,28,37–40,47) |
+| B1 p.29 | Procurement-stage sign-location drawing explicitly says markings differ from the latest plan | Do not use markings as final restrictions |
+| B2 | Q2: cycling space; Q4: no mid-block crosswalk currently planned | Do not transplant an old mid-block signal proposal |
+| C1 | Archive directly inspected, No.24 remains the latest linked issue | Search absence alone was not used |
+| C2/C3/C4 | Exact PDFs opened; C3 signal study is on PDF p.3 | Historical study ≠ final control |
+| E3 | Smartphone update page says 2026-10-15 | Service update date ≠ survey date at this site |
+| E4 | Planning lines 2026-04-03; road-ledger layer creation 2025-10-03 | R-Mappy layers are not necessarily as fresh as よこはまのみち |
+| E2 | Desktop selector blank; one reload gives `MapWithCtModel` error; smartphone search also empty | Not classified as a bot block |
+| E8/E10 | Terms accepted 2026-11-04; target plan layer mid=67 visually read | Local survey/revision date and precise base not established |
+| F4 | Fresh bounded OSM API response obtained | Snapshot corroboration only; source edit timestamps are not site survey dates |
+| F5 | GSI standard tiles inspected transiently | New road absent in this tile sample; cannot certify 2026 construction state |
+
+### Additional sources registered before extraction/publication
+
+| ID | Source and URL | Use / publication |
+|---|---|---|
+| E8 | [よこはまのみち direct agreement entrance](https://wwwm.city.yokohama.lg.jp/yokohama/Agreement?IsPost=False&MapId=17&RequestPage=%2Fyokohama%2FPositionSelect%3Fmid%3D17) | Read conditions only; map not obtained |
+| E9 | [Administrative map conditions](https://wwwm.city.yokohama.lg.jp/yokohama/yokohama/Content/pages/links/top/joken.html) | Separate viewing from permission to reproduce geometry |
+| F4 | [OSM API bounded extract](https://api.openstreetmap.org/api/0.6/map.json?bbox=139.491,35.469,139.499,35.475) | Public road/rail IDs, nodes, tags only; ODbL; contributor account metadata excluded |
+| F5 | [GSI tile catalogue](https://maps.gsi.go.jp/development/ichiran.html) | `std`, z18, x232649–232651, y103414–103416; reference-only; no tiles committed |
+| F6 | [OSM layer definition](https://wiki.openstreetmap.org/wiki/Key:layer) | Relative crossing order, not elevation or universal physical storeys |
+| F7 | [OSM licence](https://www.openstreetmap.org/copyright) | © OpenStreetMap contributors / ODbL |
+
+No official/GSI imagery or traced official geometry is committed in this audit. No permission to reproduce road-ledger linework is assumed from viewing permission. E8's map type is boundary-survey information within よこはまのみち; selecting the road-ledger plan layer is still required after access.
+
+
+## 2026-11-04 follow-up (supersedes terms-wait status)
+
+E8 terms accepted under user approval. E10 target road-ledger plan visually inspected; no map imagery or traced geometry published. Plan/correction/separate/separate-correction views checked within stated viewports. Blank correction views do not prove source absence. See [ledger review](../docs/road-ledger-review.md).
+
+- E10: https://wwwm.city.yokohama.lg.jp/yokohama/Map?mid=67&mps=500&mtp=ykmichi&mpx=139.4964&mpy=35.47055&gprj=3
+- E11: https://wwwm.city.yokohama.lg.jp/yokohama/yokohama/Content/pages/links/5_michi/yougo.html — sections 2,3,6,7 distinguish survey-time conditions, boundaries, separate drawings and screen-measurement limitations.
+
+Viewing is no longer the blocker. Gate 1 still lacks a dated, precise existing-condition base. Latest detailed project/as-built information and publication terms need confirmation. A concrete, unsent [source request](../docs/source-request.md) is prepared.

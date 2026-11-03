@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" data-status="partial">
+  <title>精密復元は未完了：Gate 1で停止</title>
+  <rect width="1200" height="600" fill="#f8fafc" />
+  <text x="50" y="85" font-size="38" font-family="Noto Sans CJK JP, sans-serif" fill="#9a3412">精密復元は未完了：Gate 1で停止</text>
+  <text x="50" y="157" font-size="26" font-family="Noto Sans CJK JP, sans-serif" fill="#0f172a">道路台帳を閲覧済み／主張16件を根拠付きで記録</text>
+  <text x="50" y="229" font-size="26" font-family="Noto Sans CJK JP, sans-serif" fill="#0f172a">旧図の問題：交通島・横断歩道配置・歩行者の斜め横断</text>
+  <text x="50" y="301" font-size="26" font-family="Noto Sans CJK JP, sans-serif" fill="#0f172a">停止理由：局所の測量時点・精密基図・最新詳細図が未確認</text>
+  <text x="50" y="373" font-size="26" font-family="Noto Sans CJK JP, sans-serif" fill="#0f172a">未確定：現況基図・位置合わせ・完成後の右左折・最終信号</text>
+  <text x="50" y="445" font-size="26" font-family="Noto Sans CJK JP, sans-serif" fill="#0f172a">調査 2026-11-03／台帳閲覧 11-04　詳細：docs/independent-audit.md</text>
+</svg>
