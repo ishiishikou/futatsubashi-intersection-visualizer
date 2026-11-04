@@ -6,6 +6,7 @@
 
 - [独立監査・停止理由・再開条件](docs/independent-audit.md)
 - [独立再検証（2026-11-04、公式原典の再取得による照合）](docs/muse-independent-verification.md)
+- [Museの設計検討（私案）：理想形の提案と開通後の比較チェックリスト](docs/design-study-muse.md) — 公式計画の復元ではない
 - [道路台帳の閲覧結果と制約](docs/road-ledger-review.md)
 - [資料の問い合わせ案（未送信）](docs/source-request.md)
 - [道路・構造物の候補ID台帳](docs/road-inventory.md)

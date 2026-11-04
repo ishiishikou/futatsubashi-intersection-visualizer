@@ -51,6 +51,11 @@ def validate(evidence, state, osm):
     for fig in state['figures']:
         if fig['geometry'] and any(g['status'] != 'passed' for g in gates[:fig.get('required_gate', 8)+1]):
             errors.append('geometry publication blocked by gates')
+        if fig.get('schematic'):
+            if fig['geometry']:
+                errors.append('schematic figure must not claim geometry')
+            if fig['status'] != 'design-study':
+                errors.append('schematic figure must carry design-study status')
     node_ids = {n['id'] for n in osm['nodes']}
     for w in osm['ways']:
         if not set(w['nodes']) <= node_ids:
@@ -70,7 +75,12 @@ def main():
             if not p.exists():errors.append(f'missing {p.name}');continue
             root=ET.parse(p).getroot()
             if root.get('data-status') != f['status']:errors.append('SVG status mismatch')
-            if not f['geometry'] and any(e.tag.rsplit('}',1)[-1] in {'path','line','polyline','polygon','image'} for e in root.iter()):
+            if not f['geometry'] and f.get('schematic'):
+                if root.get('data-figure-class') != 'design-study':errors.append('schematic figure lacks design-study class')
+                texts=''.join(e.text or '' for e in root.iter() if e.tag.rsplit('}',1)[-1]=='text')
+                if '公式計画ではありません' not in texts or '設計検討' not in texts:
+                    errors.append('schematic figure lacks design-study disclaimer')
+            elif not f['geometry'] and any(e.tag.rsplit('}',1)[-1] in {'path','line','polyline','polygon','image'} for e in root.iter()):
                 errors.append('unexpected geometry in audit notice')
     if errors:
         print('\n'.join(errors));return 1

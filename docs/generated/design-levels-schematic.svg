@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" data-status="design-study" data-figure-class="design-study">
+  <title>立体分離の模式図（設計検討・私案）</title>
+  <rect width="1200" height="820" fill="#f8fafc" />
+  <text x="50" y="52" font-size="34" font-family="Noto Sans CJK JP, sans-serif" fill="#0f172a" text-anchor="start" font-weight="bold">立体分離の模式図（設計検討）</text>
+  <text x="50" y="90" font-size="22" font-family="Noto Sans CJK JP, sans-serif" fill="#9a3412" text-anchor="start" font-weight="bold">Muse の設計検討（私案）／公式計画ではありません／復元図ではありません</text>
+  <rect x="40" y="116" width="1120" height="130" rx="10" fill="#eef2ff" stroke="#6366f1" stroke-width="2" />
+  <text x="64" y="152" font-size="24" font-family="Noto Sans CJK JP, sans-serif" fill="#0f172a" text-anchor="start" font-weight="bold">鉄道：相鉄線</text>
+  <line x1="64" y1="196" x2="1136" y2="196" stroke="#4338ca" stroke-width="3" />
+  <line x1="64" y1="208" x2="1136" y2="208" stroke="#4338ca" stroke-width="3" />
+  <text x="1136" y="152" font-size="20" font-family="Noto Sans CJK JP, sans-serif" fill="#475569" text-anchor="end">地上の交通とは混ざらない</text>
+  <line x1="600" y1="246" x2="600" y2="302" stroke="#475569" stroke-width="2" stroke-dasharray="6 5" />
+  <text x="616" y="282" font-size="20" font-family="Noto Sans CJK JP, sans-serif" fill="#475569" text-anchor="start">交差箇所：立体分離（接続なし）</text>
+  <rect x="40" y="302" width="1120" height="140" rx="10" fill="#f1f5f9" stroke="#64748b" stroke-width="2" />
+  <text x="64" y="338" font-size="24" font-family="Noto Sans CJK JP, sans-serif" fill="#0f172a" text-anchor="start" font-weight="bold">地上：1号交差点（信号交差点）</text>
+  <rect x="64" y="356" width="240" height="44" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5" />
+  <text x="184" y="386" font-size="20" font-family="Noto Sans CJK JP, sans-serif" fill="#0f172a" text-anchor="middle">西側側道</text>
+  <rect x="330" y="356" width="240" height="44" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5" />
+  <text x="450" y="386" font-size="20" font-family="Noto Sans CJK JP, sans-serif" fill="#0f172a" text-anchor="middle">駅側既存道路</text>
+  <rect x="620" y="356" width="240" height="44" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5" />
+  <text x="740" y="386" font-size="20" font-family="Noto Sans CJK JP, sans-serif" fill="#0f172a" text-anchor="middle">新設道路</text>
+  <rect x="880" y="356" width="240" height="44" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5" />
+  <text x="1000" y="386" font-size="20" font-family="Noto Sans CJK JP, sans-serif" fill="#0f172a" text-anchor="middle">東側側道</text>
+  <line x1="64" y1="430" x2="1136" y2="430" stroke="#15803d" stroke-width="4" />
+  <text x="1136" y="420" font-size="19" font-family="Noto Sans CJK JP, sans-serif" fill="#15803d" text-anchor="end">歩道・横断歩道（地上）</text>
+  <line x1="300" y1="442" x2="300" y2="498" stroke="#475569" stroke-width="2" stroke-dasharray="6 5" />
+  <text x="316" y="478" font-size="20" font-family="Noto Sans CJK JP, sans-serif" fill="#475569" text-anchor="start">本線×地上：立体分離</text>
+  <line x1="900" y1="442" x2="900" y2="498" stroke="#475569" stroke-width="2" stroke-dasharray="6 5" />
+  <text x="1136" y="478" font-size="20" font-family="Noto Sans CJK JP, sans-serif" fill="#475569" text-anchor="end">地下通路：階段で接続</text>
+  <rect x="40" y="498" width="1120" height="140" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="2" />
+  <text x="64" y="534" font-size="24" font-family="Noto Sans CJK JP, sans-serif" fill="#0f172a" text-anchor="start" font-weight="bold">地下：地上とは接続しない構造物</text>
+  <rect x="64" y="552" width="660" height="56" rx="8" fill="#ffffff" stroke="#ea580c" stroke-width="1.5" />
+  <text x="394" y="588" font-size="20" font-family="Noto Sans CJK JP, sans-serif" fill="#0f172a" text-anchor="middle">中原街道本線アンダーパス（二ツ橋地下道）</text>
+  <rect x="748" y="552" width="388" height="56" rx="8" fill="#ffffff" stroke="#15803d" stroke-width="1.5" />
+  <text x="942" y="588" font-size="20" font-family="Noto Sans CJK JP, sans-serif" fill="#0f172a" text-anchor="middle">歩行者地下通路（階段）</text>
+  <text x="50" y="692" font-size="20" font-family="Noto Sans CJK JP, sans-serif" fill="#475569" text-anchor="start">歩行者は地上横断が主動線、地下通路は補助という整理が私案。緑の線は地上の歩道・横断歩道を示す。</text>
+  <text x="50" y="728" font-size="20" font-family="Noto Sans CJK JP, sans-serif" fill="#475569" text-anchor="start">この図は交差箇所ごとの上下関係を示す模式図です。全域が一律の三層構造であることを示すものではありません。</text>
+  <text x="50" y="764" font-size="20" font-family="Noto Sans CJK JP, sans-serif" fill="#475569" text-anchor="start">上下の分離関係は公式資料・現況データで確認済み。配置・縮尺は実測ではありません。</text>
+</svg>

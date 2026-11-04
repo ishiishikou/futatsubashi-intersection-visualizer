@@ -101,6 +101,20 @@
    "kind": "withdrawal-notice",
    "status": "withdrawn",
    "geometry": false
+  },
+  {
+   "id": "design-levels-schematic",
+   "kind": "design-study",
+   "status": "design-study",
+   "geometry": false,
+   "schematic": true
+  },
+  {
+   "id": "design-topology-schematic",
+   "kind": "design-study",
+   "status": "design-study",
+   "geometry": false,
+   "schematic": true
   }
  ]
 }
