@@ -27,6 +27,20 @@ class EvidenceTests(unittest.TestCase):
         for a in [124814741,124814742]:
             for b in [161192972,854966477,169791880,60051873,238305283]:
                 self.assertFalse(set(ways[a]['nodes']) & set(ways[b]['nodes']))
+    def test_design_study_schematic_is_not_reconstruction(self):
+        figs={f['id']:f for f in self.g['figures']}
+        for fid in ['design-levels-schematic','design-topology-schematic']:
+            self.assertIn(fid,figs)
+            self.assertTrue(figs[fid].get('schematic'))
+            self.assertFalse(figs[fid]['geometry'])
+            self.assertEqual(figs[fid]['status'],'design-study')
+        self.assertEqual(validate(self.e,self.g,self.o),[])
+        self.assertFalse(self.g['reconstruction_complete'])
+    def test_schematic_must_carry_design_study_status(self):
+        for f in self.g['figures']:
+            if f.get('schematic'):
+                f['status']='partial'
+        self.assertIn('schematic figure must carry design-study status',validate(self.e,self.g,self.o))
     def test_pedestrian_tunnel_and_stairs_are_separate_connected_objects(self):
         ways={w['id']:w for w in self.o['ways']}
         for a,b in [(809626360,809626361),(809626361,809626362)]:

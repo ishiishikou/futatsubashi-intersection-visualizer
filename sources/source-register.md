@@ -305,3 +305,20 @@ E8 terms accepted under user approval. E10 target road-ledger plan visually insp
 - E11: https://wwwm.city.yokohama.lg.jp/yokohama/yokohama/Content/pages/links/5_michi/yougo.html — sections 2,3,6,7 distinguish survey-time conditions, boundaries, separate drawings and screen-measurement limitations.
 
 Viewing is no longer the blocker. Gate 1 still lacks a dated, precise existing-condition base. Latest detailed project/as-built information and publication terms need confirmation. A concrete, unsent [source request](../docs/source-request.md) is prepared.
+
+## Independent recheck — 2026-11-04 (Muse)
+
+Second independent pass; full record in [muse-independent-verification.md](../docs/muse-independent-verification.md). The existing source records were **not** taken on trust: the PDFs were re-downloaded from the URLs above and compared byte-for-byte.
+
+| Source | Recheck result | Limit |
+|---|---|---|
+| A3/A4/B1/B2/C2/C3 PDFs | Re-downloaded 2026-11-04; SHA-256 matches the value recorded on 2026-11-03 for all six files; page counts unchanged | Proves the registered files are authentic and unchanged; does not prove no newer unpublished revision exists |
+| C4 PDF | Hash newly recorded 2026-11-04 (`eb2e4601…`, 2 pages). An earlier same-day download differed in size while page 1 content was identical; two subsequent downloads agree with each other | Cause of the size difference not identified; the agreed current server file is the recorded one |
+| Claims C-01–C-16 | All re-verified against the re-downloaded originals (text extraction plus visual inspection of B1 pp.21/48 and A4 p.1); no counter-evidence found | Spot-verification of locators, not a re-litigation of every page of every source |
+| Claims C-17–C-20 added | Opening window Reiwa 8 Oct–Dec / within 2026 (B1 p.48, C4 p.1); No.3-intersection signal answer (B2 Q3, reference only); A4 contains no No.1-intersection detail (A4 p.1); B1 completion image is a ~150 dpi raster without scale/coordinate cues (B1 p.21) | C-17 is a published schedule, not a confirmed opening date |
+| A4 file structure | District plan overlay is vector-drawn over a ~200 dpi raster base map; the sheet covers the whole district | No No.1-intersection geometry can be extracted from A4 regardless of format |
+| B1 file structure | Completion image embedded as JPEG raster, 663×658 px at 150 dpi, rotated and cropped | A similarity fit is computable but its residuals would measure illustration/symbol placement, not road geometry; Gate 4 remains not_run |
+
+Gate outcome unchanged: Gate 0 passed, Gate 1 blocked, Gates 2–8 not_run. The unsent source request ([source-request.md](../docs/source-request.md)) remains unsent; sending it is the user's decision.
+| F4 (OSM) | Same bbox re-fetched 2026-11-04: all 23 ways identical (version, timestamps, node geometry); no element in the bbox edited after 2026-11-03; way 1379971511 still `highway=construction` and still short of the junction | OSM non-update is not evidence that the site is unchanged; B1 photos show island/crossing works progressing in Jun–Jul 2026 |
+| A1/A2/A6/C1 freshness | Checked 2026-11-04 against the 2026-11-03 snapshot: no change detected. Latest A1 notice remains 2026-08-10 (Aug briefings); no opening-date announcement found on the official pages; A6 still has no document link and the overview history still ends at the 6th revision (2024-10); newsletter No.24 remains latest | A1 and A6 pages could not be fetched fresh directly; those two judgements rest on search-index snippets plus the freshly fetched A2 overview page. "Not detected" is not "does not exist" |

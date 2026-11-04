@@ -1,104 +1,120 @@
 {
-  "gates": [
-    {
-      "id": 0,
-      "title": "資料登録",
-      "status": "passed",
-      "evidence": [
-        "sources/source-register.md",
-        "data/evidence.json"
-      ],
-      "reason": null
-    },
-    {
-      "id": 1,
-      "title": "現況基図",
-      "status": "blocked",
-      "evidence": [
-        "docs/road-ledger-review.md"
-      ],
-      "reason": "道路台帳は閲覧済み。対象局所の測量・補正時点、精密座標基図、最新工事・接続部詳細図が未確認。"
-    },
-    {
-      "id": 2,
-      "title": "立体交差",
-      "status": "not_run",
-      "evidence": [],
-      "reason": "前段階未通過。資料読解メモはゲート通過を意味しない。"
-    },
-    {
-      "id": 3,
-      "title": "道路台帳とのID対応",
-      "status": "not_run",
-      "evidence": [],
-      "reason": "前段階未通過。資料読解メモはゲート通過を意味しない。"
-    },
-    {
-      "id": 4,
-      "title": "位置合わせ",
-      "status": "not_run",
-      "evidence": [],
-      "reason": "前段階未通過。資料読解メモはゲート通過を意味しない。"
-    },
-    {
-      "id": 5,
-      "title": "方向別動線",
-      "status": "not_run",
-      "evidence": [],
-      "reason": "前段階未通過。資料読解メモはゲート通過を意味しない。"
-    },
-    {
-      "id": 6,
-      "title": "最終信号",
-      "status": "not_run",
-      "evidence": [],
-      "reason": "前段階未通過。資料読解メモはゲート通過を意味しない。"
-    },
-    {
-      "id": 7,
-      "title": "工学的整合性",
-      "status": "not_run",
-      "evidence": [],
-      "reason": "前段階未通過。資料読解メモはゲート通過を意味しない。"
-    },
-    {
-      "id": 8,
-      "title": "完成説明図",
-      "status": "not_run",
-      "evidence": [],
-      "reason": "前段階未通過。資料読解メモはゲート通過を意味しない。"
-    }
-  ],
-  "reconstruction_complete": false,
-  "georeference": {
-    "status": "not_run",
-    "coordinate_system_candidate": "JGD2011 / Japan Plane Rectangular CS IX (EPSG:6677), axis order to verify",
-    "control_points": [],
-    "independent_check_points": [],
-    "transform": null,
-    "rms_m": null,
-    "maximum_residual_m": null,
-    "acceptance_threshold_m": null,
-    "reason": "現況基図と最新計画の同定前。0mや架空基準点で補完しない。"
+ "gates": [
+  {
+   "id": 0,
+   "title": "資料登録",
+   "status": "passed",
+   "evidence": [
+    "sources/source-register.md",
+    "data/evidence.json",
+    "docs/muse-independent-verification.md"
+   ],
+   "reason": null
   },
-  "figures": [
-    {
-      "id": "evidence-status",
-      "kind": "audit-summary",
-      "status": "partial",
-      "geometry": false
-    },
-    {
-      "id": "05-signal-phases-2018",
-      "kind": "withdrawal-notice",
-      "status": "withdrawn",
-      "geometry": false
-    },
-    {
-      "id": "06-official-2026-schematic",
-      "kind": "withdrawal-notice",
-      "status": "withdrawn",
-      "geometry": false
-    }
-  ]
+  {
+   "id": 1,
+   "title": "現況基図",
+   "status": "blocked",
+   "evidence": [
+    "docs/road-ledger-review.md",
+    "docs/muse-independent-verification.md"
+   ],
+   "reason": "道路台帳は閲覧済み。対象局所の測量・補正時点、精密座標基図、最新工事・接続部詳細図が未確認。2026-11-04の独立再検証（公式PDF7件の真正性照合・主張20件の再確認）でも未解消。"
+  },
+  {
+   "id": 2,
+   "title": "立体交差",
+   "status": "not_run",
+   "evidence": [],
+   "reason": "前段階未通過。資料読解メモはゲート通過を意味しない。"
+  },
+  {
+   "id": 3,
+   "title": "道路台帳とのID対応",
+   "status": "not_run",
+   "evidence": [],
+   "reason": "前段階未通過。資料読解メモはゲート通過を意味しない。"
+  },
+  {
+   "id": 4,
+   "title": "位置合わせ",
+   "status": "not_run",
+   "evidence": [],
+   "reason": "前段階未通過。資料読解メモはゲート通過を意味しない。"
+  },
+  {
+   "id": 5,
+   "title": "方向別動線",
+   "status": "not_run",
+   "evidence": [],
+   "reason": "前段階未通過。資料読解メモはゲート通過を意味しない。"
+  },
+  {
+   "id": 6,
+   "title": "最終信号",
+   "status": "not_run",
+   "evidence": [],
+   "reason": "前段階未通過。資料読解メモはゲート通過を意味しない。"
+  },
+  {
+   "id": 7,
+   "title": "工学的整合性",
+   "status": "not_run",
+   "evidence": [],
+   "reason": "前段階未通過。資料読解メモはゲート通過を意味しない。"
+  },
+  {
+   "id": 8,
+   "title": "完成説明図",
+   "status": "not_run",
+   "evidence": [],
+   "reason": "前段階未通過。資料読解メモはゲート通過を意味しない。"
+  }
+ ],
+ "reconstruction_complete": false,
+ "georeference": {
+  "status": "not_run",
+  "coordinate_system_candidate": "JGD2011 / Japan Plane Rectangular CS IX (EPSG:6677), axis order to verify",
+  "control_points": [],
+  "independent_check_points": [],
+  "transform": null,
+  "rms_m": null,
+  "maximum_residual_m": null,
+  "acceptance_threshold_m": null,
+  "reason": "現況基図と最新計画の同定前。0mや架空基準点で補完しない。"
+ },
+ "figures": [
+  {
+   "id": "evidence-status",
+   "kind": "audit-summary",
+   "status": "partial",
+   "geometry": false
+  },
+  {
+   "id": "05-signal-phases-2018",
+   "kind": "withdrawal-notice",
+   "status": "withdrawn",
+   "geometry": false
+  },
+  {
+   "id": "06-official-2026-schematic",
+   "kind": "withdrawal-notice",
+   "status": "withdrawn",
+   "geometry": false
+  },
+  {
+   "id": "design-levels-schematic",
+   "kind": "design-study",
+   "status": "design-study",
+   "geometry": false,
+   "schematic": true
+  },
+  {
+   "id": "design-topology-schematic",
+   "kind": "design-study",
+   "status": "design-study",
+   "geometry": false,
+   "schematic": true
+  }
+ ]
 }
