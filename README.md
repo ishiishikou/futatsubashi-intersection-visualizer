@@ -5,6 +5,7 @@
 既存の完成模式図と信号模式図には原資料との不一致があり、撤回通知へ置換しました。現況・完成後の通行案内として使わないでください。
 
 - [独立監査・停止理由・再開条件](docs/independent-audit.md)
+- [独立再検証（2026-11-04、公式原典の再取得による照合）](docs/muse-independent-verification.md)
 - [道路台帳の閲覧結果と制約](docs/road-ledger-review.md)
 - [資料の問い合わせ案（未送信）](docs/source-request.md)
 - [道路・構造物の候補ID台帳](docs/road-inventory.md)

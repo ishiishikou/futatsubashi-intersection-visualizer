@@ -28,3 +28,7 @@ Review iterations: 1。SVG modification iterations after review: 0。Production 
 
 
 台帳閲覧後の更新：主張16件・資料22件。停止理由は同意待ちから、測量時点・精密基図・最新詳細図の未確認へ更新。要約SVGも再生成し、全寸・縮小で確認。7件の回帰検査とSVG3件の検査を再実行。
+
+## 独立再検証後の更新 — 2026-11-04（Muse）
+
+公式PDF7件を再取得して台帳と照合（記録済みハッシュ6件が全件一致、C4は新規記録）。主張は16件から20件へ（開通時期・3号交差点Q&A・事業計画図の範囲・完成イメージの形式を追加）。証拠整合性検査：PASS。回帰検査：7件PASS。SVG構造検査：3件PASS（evidence-statusは主張20件表記で再生成し、全寸PNGを目視確認）。ゲート判定は不変（Gate 0通過、Gate 1停止、Gate 2〜8未実施）。詳細は docs/muse-independent-verification.md。

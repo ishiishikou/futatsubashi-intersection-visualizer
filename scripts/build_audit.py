@@ -24,11 +24,11 @@ def main():
     if errors:raise ValueError(errors)
     OUT.mkdir(exist_ok=True)
     notice('evidence-status','精密復元は未完了：Gate 1で停止',[
-        '道路台帳を閲覧済み／主張16件を根拠付きで記録',
+        '道路台帳を閲覧済み／主張20件を根拠付きで記録',
         '旧図の問題：交通島・横断歩道配置・歩行者の斜め横断',
         '停止理由：局所の測量時点・精密基図・最新詳細図が未確認',
         '未確定：現況基図・位置合わせ・完成後の右左折・最終信号',
-        '調査 2026-11-03／台帳閲覧 11-04　詳細：docs/independent-audit.md'
+        '調査 2026-11-03／台帳閲覧・再検証 11-04　詳細：docs/independent-audit.md'
     ],'partial')
     notice('05-signal-phases-2018','旧信号模式図を撤回しました',[
         '原資料にない斜め横断と、不整合のある車両矢印を削除。',
